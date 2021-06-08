@@ -245,7 +245,7 @@ This project has three main sections all in one page but is locatable by clickin
     * robineggblue / mediumturquoise
         * #36c9c6 / #3dc / hsl(178,57%,50%) / rgb(54,201,198)
 
-*![Staycation Britain Palette](assets/readme-files/staycationBritain-palette.png)
+*![Staycation Britain Palette](assets/readme-files/staycation-Britain-palette.png)
 
 
 ### Home section
