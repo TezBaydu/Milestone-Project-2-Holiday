@@ -169,7 +169,7 @@ Below are areas considered for levels of importance and viability
 
 #### Influence
 1. Lockdown scenarios for over a year !
-2. Images of nice places to visit:
+2. Image of nice places to visit:
     *![People in the sea image](assets/images/beach-people.jpg)
 
 #### Imagery
@@ -244,6 +244,8 @@ This project has three main sections all in one page but is locatable by clickin
         * #e6ebe0 / #efe / hsl(87,21%,89%) / rgb(230,235,224)
     * robineggblue / mediumturquoise
         * #36c9c6 / #3dc / hsl(178,57%,50%) / rgb(54,201,198)
+
+*![Staycation Britain Palette](assets/readme-files/staycationBritain-palette.png)
 
 
 ### Home section
