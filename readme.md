@@ -229,9 +229,10 @@ This project has three main sections all in one page but is locatable by clickin
 - Footer with links to social media and download options.
 
 - Consistent font:
-    * PT Serif
+    * Source Serif Pro
+    * Dancing Script
     * to use additional in case montserrat isn't available for users:
-        * Ariel & sans serif
+        * Arial & sans serif
 
 - Colours (although may vary to suit):
     * darkslava / darkslategray

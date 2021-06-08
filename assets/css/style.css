@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+/*--- Nav Bar --- */
+
+.navbar {
+    border-radius: 0 0 30px 30px;
+    background-color: #e6ebe0;
+}
+
+.navbar-expand-lg {
+    padding-left: 20px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding-right: 50px;
+    font-size: xx-large;
+    
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+#suitcase {
+    width: auto;
+    height: 80px;
+}
+
+/*--- Hero image --- */
+
+#hero {
+    background-image: url(/assets/images/shellfish-beach.jpg);
+    max-width: none;
+    background-size: cover;
+    height: 900px;
+    margin-top: -100px;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.display-4 {
+    padding-left: 200px;
+    padding-top: 200px;
+    font-size: 70px;
+    font-family: "Dancing Script";
+    color: #463730;
+    font-weight: 1000;
+    letter-spacing: 8px;
+}
+
+/*--- Body --*/
+
+body {
+    font-family: "Source Serif pro", "Dancing Script", Arial, sans-serif;
+}
+
+/*--- Introduction section ---*/
+
+.intro {
+    font-size: 24px;
+    padding: 15% 5% 20%;
+    color: #463730;
+}
+
+.capital {
+    font-size: 60px;
+}
+
+#pic-tiles {
+    display: inline-flex;
+}
