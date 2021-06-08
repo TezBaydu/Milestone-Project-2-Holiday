@@ -26,7 +26,7 @@
     - [Wireframe](#Wireframe)
 3. [Features](#Features)
     - [Consistency](#Consistency)
-    - [Home](#Home-page)
+    - [Home](#Home-section)
     - [Locations](#Location-sesction)
     - [Contact](#Contact-section)
 4. [Technologies Used](#Technologies-Used)
@@ -170,7 +170,7 @@ Below are areas considered for levels of importance and viability
 #### Influence
 1. Lockdown scenarios for over a year !
 2. Images of nice places to visit:
-    * ![People in the sea image] (assets/images/beach-people.jpg)
+    *![People in the sea image](assets/images/beach-people.jpg)
 
 #### Imagery
 1. Colours
@@ -197,30 +197,82 @@ Hierarchical structure design for simpler user navigation:
 
 [Back to top ⇧](#Project-Staycation-Britain)
 
---------- Upto here updated on readme -------------------
+
 
 ### Wireframe
+
+- Designed in [Figma]()
+
+- Home section
+![Home section wireframes on all devices]()
+
+- Location section
+![Location section wireframes on all devices]()
+
+- Contact section
+![Contact section wireframes on all devices]()
 
 
 
 [Back to top ⇧](#Project-Staycation-Britain)
 
 ## Features
-
+This project has three main sections all in one page but is locatable by clicking relevant name in a menu bar.
 
 
 ### Consistency
 
+- Design with menu placing in the same position at top.
+    * A logo which leads the user back to 'Home' when clicked.
+    * Mobile version to be a dropdown menu.
+
+- Footer with links to social media and download options.
+
+- Consistent font:
+    * PT Serif
+    * to use additional in case montserrat isn't available for users:
+        * Ariel & sans serif
+
+- Colours (although may vary to suit):
+    * darkslava / darkslategray
+        * #463730 / #433 / hsl(19,18%,23%) / rgb(70,55,48)
+    * bluesapphire / darkslategray
+        * #1f5673 / #257 / hsl(200,57%,28%) / rgb(31,86,115)
+    * opal / darkgray
+        * #9bc1bc / #acc / hsl(172,23%,68%) / rgb(155,193,188)
+    * alabaster / gainsboro
+        * #e6ebe0 / #efe / hsl(87,21%,89%) / rgb(230,235,224)
+    * robineggblue / mediumturquoise
+        * #36c9c6 / #3dc / hsl(178,57%,50%) / rgb(54,201,198)
 
 
-### Home page
+### Home section
+1. Backdrops
+    - Hero beach image.
+    - Typical images of fun and food associated to holiday.
 
+2. Synopsis
+    - Site description
 
 ### Location section
+1. Collapsable cards of each recommended places
 
+#### Card Collapse
+1. Location image.
+2. Five lines of description.
+3. Read more link to open card.
 
+#### Card Expanded
+1. Location image.
+2. Full text explanded.
+3. Links to point of interest and relevance in text.
+4. Google Map of associated location.
+5. Recommended point of interest markers
 
 ### Contact section
+1. Description of why to contact
+2. Contact fields
+
 
 
 [Back to top ⇧](#Project-Staycation-Britain)
