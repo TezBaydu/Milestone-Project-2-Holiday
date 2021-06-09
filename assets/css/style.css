@@ -39,7 +39,8 @@
     background-size: cover;
     height: 900px;
     margin-top: -100px;
-    background-position: bottom center;
+    background-attachment: local;
+    background-position: bottom;
     background-attachment: fixed;
 }
 
@@ -51,6 +52,10 @@
     color: #463730;
     font-weight: 1000;
     letter-spacing: 8px;
+}
+
+@media (max-width: 1024px) {
+    
 }
 
 /*--- Body --*/
@@ -71,6 +76,30 @@ body {
     font-size: 60px;
 }
 
-#pic-tiles {
-    display: inline-flex;
+.flex {
+    display: flex;
+    height: 800px;
+}
+
+.pic-tiles-1 {
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+    margin-left: 100px;
+    background-attachment: fixed;
+}
+
+.pic-tiles-2 {
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.pic-tiles-3 {
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+    margin-left: -100px;
+    background-attachment: fixed;
 }
