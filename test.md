@@ -12,4 +12,6 @@
     * As a result of finding reason for why font was not showing have decided to use different fonts Source Serif Pro and Dance Script for Hero text
 
 - Google Maps
-    * Applied two google maps to Index.html (Commit 14). When page is re-loaded only one of them is interactive
+    * Applied two google maps to Index.html (Commit 14). When page is re-loaded only one of them is interactive.
+        * A potential solution found in stackoverflow to show multiple maps per page: https://stackoverflow.com/questions/4074520/how-to-display-multiple-google-maps-per-page-with-api-v3
+            * This has worked but just need to amend location focus for each map, to be done in commit 15

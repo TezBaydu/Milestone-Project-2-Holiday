@@ -1,7 +1,18 @@
+let mapBrighton, mapNewquay;
 
+function initMap(condition) {
+    let myMaps = {
+    zoom: 13,
+    center: { lat: 50.82, lng: -0.135 },
+}
+
+mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), myMaps);
+
+mapNewquay = new google.maps.Map(document.getElementById("map-newquay"),myMaps);
+}
 
 // Brighton co-ordinates //
-let mapBrighton;
+/* let mapBrighton;
 
 function initMapBrighton() {
   mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
@@ -18,7 +29,7 @@ function initMapNewquay() {
     center: { lat: 50.42, lng: -5.1 },
     zoom: 12
   });
-}
+} */
 
     /* var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
