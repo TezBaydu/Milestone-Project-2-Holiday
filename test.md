@@ -15,3 +15,7 @@
     * Applied two google maps to Index.html (Commit 14). When page is re-loaded only one of them is interactive.
         * A potential solution found in stackoverflow to show multiple maps per page: https://stackoverflow.com/questions/4074520/how-to-display-multiple-google-maps-per-page-with-api-v3
             * This has worked but just need to amend location focus for each map, to be done in commit 15
+                *solution found by simply creating an additional empty variable :)
+
+
+                

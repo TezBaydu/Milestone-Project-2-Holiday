@@ -159,6 +159,23 @@ body {
     margin-bottom: 5%;
 }
 
+#map-cardigan {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    overflow: inherit;
+    border: #fff;
+    margin-bottom: 5%;
+}
+
+#map-skye {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    overflow: inherit;
+    border: #fff;
+    margin-bottom: 5%;
+}
 
 @media (max-width: 1199px) {
     .flex {
