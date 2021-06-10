@@ -77,6 +77,8 @@
         </div>
     </div>
 
+    <!-- Introduction -->
+
     <div class="container">
         <p class="intro"><span class="capital">W</span>ell it’s that time of the year and you’ve decided you
             want to get away.<br>
@@ -84,6 +86,8 @@
             arcades, bars, restaurants, kiss me quick hats, 99 ice creams or especially fish & chips on a
             pier....</p>
     </div>
+
+    <!-- Picture tiles -->
 
     <div class="container-fluid">
         <div class="flex row">
@@ -99,10 +103,14 @@
         </div>
     </div>
 
+    <!-- Follow up intro -->
+
     <div class="container">
         <p class="intro2"><span class="capital">H</span>ere are some of my favourite places I’ve personally visited.<br>
             If you decide to visit, I hope you enjoy it as much as I did and do......</p>
     </div>
+
+    <!-- Locations -->
 
     <div id="locations" class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
@@ -200,13 +208,14 @@
                 <img src="assets/images/cardigan-bay.jpg" class="card-img-top" alt="Overview of Cardigan Bay">
                 <div class="card-body">
                     <h5 class="card-title">CARDIGAN BAY</h5>
-                    <p class="card-text"><span class="capital">C</span>ardigan, West Wales, is the gateway to the Teifi Valley and the Ceredigion and
+                    <p class="card-text"><span class="capital">C</span>ardigan, West Wales, is the gateway to the Teifi
+                        Valley and the Ceredigion and
                         Pembrokeshire Coastal Paths.
-                        </p>
+                    </p>
                     <a class="read_more_button">Read more</a>
                     <br>
                     <span class="card-text-collapsed">
-                         The ancient town sits on the estuary of the River Teifi at the base
+                        The ancient town sits on the estuary of the River Teifi at the base
                         of Cardigan Bay.
                         <br>
                         Its unspoilt townscape and rich heritage provide a nostalgic backdrop to a thriving culture of
@@ -237,9 +246,10 @@
                 <img src="assets/images/scotland-skye-3.jpg" class="card-img-top" alt="Picturesque Isle of Skye">
                 <div class="card-body">
                     <h5 class="card-title">ISLE OF SKYE</h5>
-                    <p class="card-text"><span class="capital">S</span>kye is one of the top locations in Scotland to visit. It is famous for its
+                    <p class="card-text"><span class="capital">S</span>kye is one of the top locations in Scotland to
+                        visit. It is famous for its
                         scenery and landscapes that will take your breath away.
-                        </p>
+                    </p>
                     <a class="read_more_button">Read more</a>
                     <br>
                     <span class="card-text-collapsed">
@@ -260,7 +270,8 @@
                         Skye is a world class destination for walkers and climbers. ‘The Cuillin Range’ and ‘The
                         Trotternish Ridge’ offer challenging climbs and interesting scrambles. The Cuillin Range offers
                         12 Munros - peaks above 3000ft (914m). There are many great walks on Skye to be enjoyed by the
-                        less experienced, check both our Top Ten Skye Walks and Island Walks for detailed route guides.</span>
+                        less experienced, check both our Top Ten Skye Walks and Island Walks for detailed route
+                        guides.</span>
                     </p>
                 </div>
                 <div class="container">
@@ -271,13 +282,41 @@
         </div>
     </div>
 
-    <div class = "container">
-        <h2 id = "contact" class ="text-center">Contact</h2>
+    <!-- Contact section -->
+
+    <div class="container">
+        <h2 id="contact" class="text-center">Contact</h2>
+        <p class="text-center contact-desc">Contact us for any advice on these or any other places to stay in Britain
+            and also sign up for our free email newsletter for the latest updates</p>
+        <form onsubmit="alert('Thanks for getting in touch, we will contact you soon.')" id="contact-form" method="POST"
+            action="" onsubmit="handleSubmit(event);">
+            <div class="name-row">
+                <input type="text" class="form-control" aria label="Name" placeholder="Name:" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="contactEmail"></label>
+                <input type="email" class="form-control" aria-label="email" id="contactEmail"
+                    placeholder="Email: name@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="contactMessage"></label>
+                <textarea class="form-control message-area" aria-label="message" id="contactMessage"
+                    placeholder="Message:" required></textarea>
+            </div>
+
+            <div class="bd-example">
+                <button type="submit" class="btn btn-outline-info">Submit</button>
+            </div>
+        </form>
     </div>
 
-    <div>
-        <p class = "text-center contact-desc">Contact us for any advice on these or any other places to stay in Britain and also sign up for our free email newsletter for the latest updates</p>
+    <!-- Farewell image -->
+
+    <div class="container teddy">
+        <img class="img-fluid" src="assets/images/luggage-teddy.jpg" alt="Sepia image of a teddy in an open suitcase">
     </div>
+
+
 
 
     <!-- <script

@@ -439,3 +439,7 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 [Back to top ⇧](#Project-Staycation-Britain)
 
+Mentor questions:
+
+1. Cards collapsed on page start?
+2. Read more - This is static positioned...is this ok?
