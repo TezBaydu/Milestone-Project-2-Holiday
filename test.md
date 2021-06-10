@@ -10,3 +10,6 @@
             * Ok Body font-family css is to also be updated...it's late ok...
     
     * As a result of finding reason for why font was not showing have decided to use different fonts Source Serif Pro and Dance Script for Hero text
+
+- Google Maps
+    * Applied two google maps to Index.html (Commit 14). When page is re-loaded only one of them is interactive
