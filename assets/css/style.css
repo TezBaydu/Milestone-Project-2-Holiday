@@ -26,13 +26,29 @@
     margin-right: 30px;
 }
 
-#suitcase {
-    width: auto;
-    height: 80px;
+.navbar-brand {
+    font-size: 60px;
+    padding-left: 40px;
+    padding-bottom: -20px;
+    margin-bottom: -29px;
+    color: #1f5673;
+    margin-top: -15px;
 }
 
-#suitcase:hover {
-    color: aquamarine;
+.navbar-light .navbar-brand {
+    color: #1f5673;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #36c9c6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1f5673;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #36c9c6;
 }
 
 @media (max-width: 767px) {
