@@ -51,6 +51,10 @@
     color: #36c9c6;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 @media (max-width: 767px) {
     #suitcase {
         height: 60px;
@@ -273,7 +277,6 @@ form {
 
 #staycation-britain {
     color: #e6ebe0;
-    text-align: center;
     font-family: "Dancing Script";
     font-size: 48px;
 }
@@ -288,21 +291,25 @@ form {
 }
 
 .social-links li a {
-    width: 40px;
-    height: 40px;
-    padding: 5px 7px;
+    width: 42px;
+    height: 42px;
+    padding: 8px 5px;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 15px;
     text-align: center;
     color: #ffffff;
-    background: #000000;
+    background: #463730;
     transition: all 0.35s ease-in-out;
     margin: 5px 5px;
 }
 
 .social-links li a:hover {
     background: #36c9c6;
+}
+
+.list-inline-item {
+    display: inline-flex;
 }
 
 @media (max-width: 1199px) {
