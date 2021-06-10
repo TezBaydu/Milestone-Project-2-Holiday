@@ -141,6 +141,16 @@ body {
     font-size: 48px;
 }
 
+#map-brighton {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    overflow: inherit;
+    border: #fff;
+    margin-bottom: 5%;
+}
+
+
 @media (max-width: 1199px) {
     .flex {
         height: 500px;

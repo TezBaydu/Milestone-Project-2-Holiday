@@ -290,7 +290,7 @@ This project has three main sections all in one page but is locatable by clickin
 
 - Javascript
 
-- JQuery
+- [JQuery](https://code.jquery.com/)
 
 - [Coolors - colour collage](https://coolors.co)
 
