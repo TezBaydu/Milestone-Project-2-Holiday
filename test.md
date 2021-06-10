@@ -17,5 +17,7 @@
             * This has worked but just need to amend location focus for each map, to be done in commit 15
                 *solution found by simply creating an additional empty variable :)
 
+- font awesome 5.15.3 cdn from Bootstrap not working
+    * Found another 5.15.3 version at cdnjs website: https://cdnjs.com/libraries/font-awesome
 
-                
+
