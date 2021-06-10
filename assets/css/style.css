@@ -54,7 +54,6 @@
     padding-left: 200px;
     font-size: 70px;
     font-family: "Dancing Script";
-    color: #463730;
     font-weight: 1000;
     letter-spacing: 8px;
     margin-top: -600px;
@@ -83,6 +82,7 @@
 
 body {
     font-family: "Source Serif pro", "Dancing Script", Arial, sans-serif;
+    color: #463730;
 }
 
 /*--- Introduction section ---*/
@@ -90,12 +90,13 @@ body {
 .intro {
     font-size: 24px;
     padding: 15% 5% 20%;
-    color: #463730;
 }
 
 .capital {
     font-size: 60px;
 }
+
+/* Tiled pictures */
 
 .flex {
     display: flex;
@@ -125,12 +126,15 @@ body {
     background-attachment: fixed;
 }
 
+/* Second intro */
+
 .intro2{
     font-size: 24px;
     padding: 0% 5% 20%;
-    color: #463730;
     text-align-last: center;
 }
+
+/* Locations section */
 
 .mb-4 {
     padding: 40px;
@@ -177,6 +181,18 @@ body {
     margin-bottom: 5%;
 }
 
+/* Contact section */
+
+#contact {
+    padding-bottom: 50px;
+}
+
+.contact-desc {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 @media (max-width: 1199px) {
     .flex {
         height: 500px;
@@ -195,8 +211,10 @@ body {
     .pic-tiles-3 {
         width: 130%;
     }
-    
-    
+
+    .contact-desc {
+    font-size: 18px;    
+    }
 }
 
 @media (max-width: 767px) {
