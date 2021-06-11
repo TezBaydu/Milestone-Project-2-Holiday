@@ -444,9 +444,11 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 To update:
 Text links
-Button collapse mobile version
+
 
 Mentor questions:
 
 1. Read more - This is static positioned...is this ok?
-2. 
+2. Alignment to left, why?
+3. JavaScript requirements?
+4. Contact email post, to own email? how?

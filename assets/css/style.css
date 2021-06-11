@@ -16,6 +16,11 @@
     justify-content: flex-end;
 }
 
+.navbar-nav {
+    text-align: right;
+    place-content: flex-end;
+}
+
 .nav-item {
     padding-right: 50px;
     font-size: xx-large;
@@ -58,6 +63,10 @@
 @media (max-width: 767px) {
     #suitcase {
         height: 60px;
+    }
+
+    .nav-item {
+        font-size: large;
     }
 }
 
@@ -259,10 +268,16 @@ form {
     border-radius: 20px;
 }
 
+/* Footer */
+
 .footer {
     background-color: #1F5673;
     padding: 40px;
     border-radius: 30px 30px 0 0;
+}
+
+.footer .row {
+    flex-wrap: wrap-reverse;
 }
 
 .copyright {
@@ -382,5 +397,20 @@ form {
     .card-title {
         font-size: 36px;
     }
-}
 
+    .footer .row {
+        flex-direction: column;
+    }
+
+    #copyright-text {
+        width: 100%
+    }
+
+    #staycation-britain {
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+    }
+}
