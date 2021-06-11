@@ -20,4 +20,10 @@
 - font awesome 5.15.3 cdn from Bootstrap not working
     * Found another 5.15.3 version at cdnjs website: https://cdnjs.com/libraries/font-awesome
 
+- Card collapse on load as opposed to pressing the Read more button
+    * Bootstrap has a class = "collapse in" which collapses the div on page load
+
+- Button collapse not working with Bootstrap cdn.com link.
+    * Bootstrap site Get Bootstrap.com has recommended links for javascript and jquery: https://getbootstrap.com/docs/4.4/getting-started/introduction/
+
 
