@@ -443,7 +443,7 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 
 To update:
-Site isn't 100% width especially in mobile version - Pic tilesadjustment required
+Site isn't 100% width especially in mobile version - Pic tiles adjustment required - done
 Figma updates to Tablet and mobile versions
 Adjust designs to version 1 (one place per view) to allow for more map space and interactivity
 Intro 2 - too much white space- potential border, image or reduce margin top and bottom
@@ -455,6 +455,7 @@ Contact message to be non-resizeable
 Contact auto response by email also required email JavaScript
 Back to top button - floating
 
+Investigate menu collapse so doesn't affect wider versions
 
 
 

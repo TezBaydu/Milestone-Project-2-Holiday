@@ -96,12 +96,6 @@
     margin-top: -600px;
 }
 
-@media (max-width: 1199px) {
-    #hero {
-        height: 1000px
-    }
-}
-
 @media (max-width: 767px) {
     #hero {
         height: 700px;
@@ -116,6 +110,7 @@
 
     .navbar-brand {
         padding-left: 0;
+        font-size: 40px;
     }
 
     #nav-staycation-britain {
@@ -184,6 +179,10 @@ body {
 }
 
 /* Locations section */
+
+.card img {
+    padding: 5%;
+}
 
 .mb-4 {
     padding: 40px;

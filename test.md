@@ -27,6 +27,8 @@
     * Bootstrap site Get Bootstrap.com has recommended links for javascript and jquery: https://getbootstrap.com/docs/4.4/getting-started/introduction/
 
 
-
+- Nav bar to collapse when link is pressed for toggler width versions only.
+    * JQuery code written but affected menu also for wider versions
+        *To investigate
 
 
