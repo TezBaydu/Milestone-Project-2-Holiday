@@ -443,7 +443,20 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 
 To update:
+Site isn't 100% width especially in mobile version - Pic tilesadjustment required
+Figma updates to Tablet and mobile versions
+Adjust designs to version 1 (one place per view) to allow for more map space and interactivity
+Intro 2 - too much white space- potential border, image or reduce margin top and bottom
+Map to have buttons for places of interest and markers showing where these are.
+Below to show recommended places to see depending on buttons pressed.
 Text links
+Read more - to disappear when pressed and read less appears at bottom and vice versa
+Contact message to be non-resizeable
+Contact auto response by email also required email JavaScript
+Back to top button - floating
+
+
+
 
 
 Mentor questions:
