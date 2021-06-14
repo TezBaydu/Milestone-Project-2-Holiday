@@ -82,7 +82,7 @@
     max-width: none;
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 550px;
     margin-top: -20px;
     background-position: bottom;
 }
@@ -93,7 +93,7 @@
     font-family: "Dancing Script";
     font-weight: 1000;
     letter-spacing: 8px;
-    margin-top: -600px;
+    margin-top: -500px;
 }
 
 
@@ -388,13 +388,13 @@ form {
 
 @media (max-width: 767px) {
     #hero {
-        height: 590px;
-        background-size: cover;
-        background-position: bottom;
+        background-position-x: 907px;
+        background-position-y: -125px;
+        height: 460px;
     }
 
     .display-4 {
-        margin-top: -510px;
+        margin-top: -350px;
     }
 
     .title-intro {
