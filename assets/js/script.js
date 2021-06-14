@@ -21,3 +21,13 @@ contactForm.addEventListener("submit", handleSubmit);
     $(".navbar-toggler").click();
 }); */
 
+// navbar fades - just a nice to have play with how you can make an element fade on scroll
+
+ $(window).scroll(function () {
+    if ($(this).scrollTop() > 150) {
+        $(".navbar").addClass("navbar-fade");
+    } else {
+        $(".navbar").removeClass("navbar-fade");
+    }
+}); 
+

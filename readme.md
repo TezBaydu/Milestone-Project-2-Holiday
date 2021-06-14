@@ -444,9 +444,10 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 To update:
 Site isn't 100% width especially in mobile version - Pic tiles adjustment required - done
+Adjust designs to version 1 (one place per view) to allow for more map space and interactivity - done
+Intro 2 - too much white space- potential border, image or reduce margin top and bottom - done - margins reduced by updating flex height on pic-tiles
+
 Figma updates to Tablet and mobile versions
-Adjust designs to version 1 (one place per view) to allow for more map space and interactivity
-Intro 2 - too much white space- potential border, image or reduce margin top and bottom
 Map to have buttons for places of interest and markers showing where these are.
 Below to show recommended places to see depending on buttons pressed.
 Text links
