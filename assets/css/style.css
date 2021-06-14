@@ -344,6 +344,12 @@ form {
     display: inline-flex;
 }
 
+@media (min-width: 1199px) {
+    #hero {
+        background-image: url(/assets/images/shellfish-beach-wide-2.jpg)
+    }
+}
+
 @media (max-width: 1199px) {
     .card img {
         padding: 3% 5% 0;
@@ -355,7 +361,7 @@ form {
     }
 
     .flex {
-        height: 500px;
+        height: 420px;
     }
 
     .pic-tiles-1 {
