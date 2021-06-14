@@ -451,7 +451,7 @@ Figma updates to Tablet and mobile versions
 Map to have buttons for places of interest and markers showing where these are.
 Below to show recommended places to see depending on buttons pressed.
 Text links
-Read more - to disappear when pressed and read less appears at bottom and vice versa
+Read more - to disappear when pressed and read less appears at bottom and vice versa - Read more Read less done, considering the point to place Read less at bottom
 Contact message to be non-resizeable
 Contact auto response by email also required email JavaScript
 Back to top button - floating

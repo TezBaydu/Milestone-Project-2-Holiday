@@ -1,8 +1,19 @@
 // Read more button in card texts
 
-$(".read_more_button").click(function () {
+/* $(".read_more_button").click(function () {
     $(this).siblings(".card-text-collapsed").toggle("slow");
+}); */
+
+// Read more read less text is replaced
+$(document).ready(function () {
+$(".card-text").hide();
+$(".read_more_button").on("click", function () {
+    var txt = $(".card-text").is(':visible') ? 'Read more' : 'Read less';
+    $(".read_more_button").text(txt);
+    $(this).siblings('.card-text').slideToggle(200);
 });
+});
+
 
 // contact form handling
 
@@ -30,4 +41,6 @@ contactForm.addEventListener("submit", handleSubmit);
         $(".navbar").removeClass("navbar-fade");
     }
 }); 
+
+
 
