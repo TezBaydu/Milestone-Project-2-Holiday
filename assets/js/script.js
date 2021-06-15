@@ -55,8 +55,8 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
-  e.preventDefault();
+btn.on('click', function(top) {
+  top.preventDefault();
   $('html, body').animate({scrollTop:0}, '600');
 });
 
