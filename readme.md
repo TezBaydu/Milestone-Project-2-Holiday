@@ -454,7 +454,7 @@ Text links
 Read more - to disappear when pressed and read less appears at bottom and vice versa - Read more Read less done, considering the point to place Read less at bottom
 Contact message to be non-resizeable
 Contact auto response by email also required email JavaScript
-Back to top button - floating
+Back to top button - floating button applied and working but font is not showing - to investigate
 
 Investigate menu collapse so doesn't affect wider versions
 
