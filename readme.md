@@ -446,15 +446,16 @@ To update:
 Site isn't 100% width especially in mobile version - Pic tiles adjustment required - done
 Adjust designs to version 1 (one place per view) to allow for more map space and interactivity - done
 Intro 2 - too much white space- potential border, image or reduce margin top and bottom - done - margins reduced by updating flex height on pic-tiles
+Back to top button - done
+Read more - to disappear when pressed and read less appears at bottom and vice versa - Read more Read less done, considering the point to place Read less at bottom - done
+Contact message to be non-resizeable - Done Max-height
 
 Figma updates to Tablet and mobile versions
 Map to have buttons for places of interest and markers showing where these are.
 Below to show recommended places to see depending on buttons pressed.
 Text links
-Read more - to disappear when pressed and read less appears at bottom and vice versa - Read more Read less done, considering the point to place Read less at bottom
-Contact message to be non-resizeable
 Contact auto response by email also required email JavaScript
-Back to top button - floating button applied and working but font is not showing - to investigate
+
 
 Investigate menu collapse so doesn't affect wider versions
 

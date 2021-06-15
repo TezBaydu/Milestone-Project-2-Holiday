@@ -8,22 +8,12 @@
     background-color: #e6ebe0;
 }
 
-.navbar-expand-lg {
-    padding-left: 20px;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
 .navbar-nav {
-    text-align: right;
     place-content: space-around;
     flex-direction: row;
 }
 
 .nav-item {
-    padding-right: 50px;
     font-size: xx-large;
     
 }
@@ -36,9 +26,7 @@
     font-size: 60px;
     padding-left: 40px;
     padding-bottom: -20px;
-    margin-bottom: -29px;
     color: #1f5673;
-    margin-top: -15px;
 }
 
 .navbar-light .navbar-brand {
@@ -78,6 +66,19 @@
 
     .nav-item {
         font-size: large;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+        font-size: 40px;
+    }
+
+    #nav-staycation-britain {
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
     }
 }
 
@@ -159,19 +160,6 @@ a {
         padding-left: 20px;
         font-size: 48px;
         margin-top: -550px;
-    }
-
-    .navbar-brand {
-        padding-left: 0;
-        font-size: 40px;
-    }
-
-    #nav-staycation-britain {
-        font-size: 18px;
-    }
-
-    .navbar-toggler {
-        margin-right: 20px;
     }
 }
 
@@ -314,6 +302,7 @@ form {
 
 .message-area {
     margin-bottom: 20px;
+    max-height: 70px;
 }
 
 .bd-example {
