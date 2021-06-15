@@ -455,6 +455,7 @@ Map to have buttons for places of interest and markers showing where these are.
 Below to show recommended places to see depending on buttons pressed.
 Text links
 Contact auto response by email also required email JavaScript
+When clicking on Read less, to scroll back to initial (this) location
 
 
 Investigate menu collapse so doesn't affect wider versions

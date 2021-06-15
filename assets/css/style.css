@@ -15,6 +15,7 @@
 
 .nav-item {
     font-size: xx-large;
+    padding-right: 30px;
     
 }
 
@@ -59,6 +60,10 @@
     transition: background-color .5s ease 0s;
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 @media (max-width: 767px) {
     #suitcase {
         height: 60px;
@@ -66,6 +71,7 @@
 
     .nav-item {
         font-size: large;
+        padding-right: 0;
     }
 
     .navbar-brand {
