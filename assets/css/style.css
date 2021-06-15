@@ -18,7 +18,8 @@
 
 .navbar-nav {
     text-align: right;
-    place-content: flex-end;
+    place-content: space-around;
+    flex-direction: row;
 }
 
 .nav-item {
@@ -198,6 +199,7 @@ body {
 
 .capital {
     font-size: 60px;
+    line-height: 50px;
 }
 
 /* Tiled pictures */
