@@ -6,7 +6,7 @@ let mapSkye;
 function initMap() {
     mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
         center: { lat: 50.82, lng: -0.135 },
-        zoom: 13 
+        zoom: 11
     }),
 
     mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
