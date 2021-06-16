@@ -234,6 +234,14 @@ body {
 
 /* Locations section */
 
+.card {
+    background-color: #e6ebe0;
+}
+
+.col-12 .card {
+    background-color: #bcc7af;
+}
+
 .card img {
     padding: 3% 20% 0;
 }
@@ -315,6 +323,19 @@ body {
     background-color: #9bc1bc;
 }
 
+/* Interests section */
+
+.int-head {
+    text-align: center;
+}
+
+.flex-column {
+    align-items: center;
+}
+
+.int-cards {
+    padding: 0 15px 15px 15px;
+}
 
 /* Contact section */
 

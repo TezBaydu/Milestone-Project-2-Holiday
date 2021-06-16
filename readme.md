@@ -452,7 +452,7 @@ Contact message to be non-resizeable - Done Max-height
 
 Figma updates to Tablet and mobile versions
 Map to have buttons for places of interest and markers showing where these are. - Buttons applied / Markers to be done
-Below to show recommended places to see depending on buttons pressed.
+Below to show recommended places to see depending on buttons pressed. - Cards produced and styled / content and script needs updating
 Text links
 Contact auto response by email also required email JavaScript
 When clicking on Read less, to scroll back to initial (this) location
