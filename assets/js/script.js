@@ -5,6 +5,7 @@
 }); */
 
 // Read more read less text is replaced
+
 $(document).ready(function () {
 $(".card-text").hide();
 $(".read_more_button").on("click", function () {
@@ -59,6 +60,8 @@ btn.on('click', function(top) {
   top.preventDefault();
   $('html, body').animate({scrollTop:0}, '600');
 });
+
+
 
 
 

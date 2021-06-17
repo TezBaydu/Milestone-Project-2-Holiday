@@ -3,7 +3,7 @@ let mapNewquay;
 let mapCardigan;
 let mapSkye;
 
-function initMap() {
+function initMap(markerLocations) {
     mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
         center: { lat: 50.82, lng: -0.135 },
         zoom: 11
@@ -26,56 +26,105 @@ function initMap() {
 
 }
 
-        
-// Part of solution showing both maps but not two different location points
-/* mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), myMaps);
+// Map marker co-ordinates
 
-mapNewquay = new google.maps.Map(document.getElementById("map-newquay"),myMaps);
-} */
+// Isle of Skye
 
-// Initial map solution but only display 1 map at a time
+// Activities Isle of Skye
 
-// Brighton co-ordinates //
-/* let mapBrighton;
-
-function initMapBrighton() {
-  mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
-    center: { lat: 50.82, lng: -0.135 },
-    zoom: 13
-  });
-}
-
-// Newquay co-ordinates //
-let mapNewquay;
-
-function initMapNewquay() {
-  mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
-    center: { lat: 50.42, lng: -5.1 },
-    zoom: 12
-  });
-} */
+let markerLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    content: `<h4 class = "marker-head">Bella Jane</h4>
+    <div class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg">
+    </div>`
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    content: `<h4 class = "marker-head">A.C.E Target Sports</h4>
+    <div class = "marker-image>
+    <img src="assets/images/BellaJaneActivity.jpg">
+    </div>`
+    }];
 
 // Placeholder for pointer locations
 
-    /* var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    var locations = [{
-            lat: 51.474,
-            lng: -0.069
-        },
-        {
-            lat: 51.441,
-            lng: -0.012
-        },
-        {
-            lat: 51.466,
-            lng: -0.106
+     if (markerLocations) {
+        for (let i=0; i < markerLocations.length; i++) {
+            let marker = new google.maps.Marker ({
+                position: markerLocations[i].coord,
+                map: mapSkye,
+                animation: google.maps.Animation.DROP,
+            });
+
+            // Marker info window
+
+            let infoWindow = new google.maps.InfoWindow ({
+                content: markerLocations[i].content,
+            });
+
+            // Close previous info window
+
+            google.maps.event.addListener(marker, 'click', function(){
+                if (currentinfoWindow == null) {
+                    currentinfoWindow.close();
+                }
+                infoWindow.open(mapSkye, marker);
+                currentInfoWindow = InfoWindow;
+            });
+
+            let currentInfoWindow = null;
+            
         }
-    ];
+    }
 
-    var markers = locations.map(function (location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    }); */
+// Event listeners for makers and call recommendation cards
+
+document.getElementById("btn-activities").addEventListener("click",() => {
+    initMap(markerLocations);
+    skyeActivities();
+});
+
+document.getElementById("btn-restaurants").addEventListener("click",() => {
+    initMap(markerLocations);
+    skyeRestaurants();
+});
+
+document.getElementById("btn-hotels").addEventListener("click",() => {
+    initMap(markerLocations);
+    skyeHotels();
+});
+
+
+// Functions to display cards
+
+function skyeActivities() {
+    clearCards();
+    documentGetElementById("activities-int").style.display = "block";
+}
+
+function skyeRestaurants() {
+    clearCards();
+    documentGetElementById("restaurants-int").style.display = "block";
+}
+
+function skyeHotels() {
+    clearCards();
+    documentGetElementById("hotels-int").style.display = "block";
+}
+
+// Function to clear previous selection cards
+
+function clearCards() {
+    document.getElementById("activities-int").style.display ="none";
+    document.getElementById("restaurants-int").style.display ="none";
+    document.getElementById("hotels-int").style.display ="none";
+
+}
