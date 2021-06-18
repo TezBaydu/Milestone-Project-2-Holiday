@@ -3,11 +3,13 @@ let mapNewquay;
 let mapCardigan;
 let mapSkye;
 
-function initMap(markerLocations) {
+
+
+function initMap(markerLocations, locationPlace) {
     mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
         center: { lat: 50.82, lng: -0.135 },
         zoom: 11
-    }),
+    });
 
     mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
         center: { lat: 50.4168, lng: -5.09 },
@@ -21,9 +23,49 @@ function initMap(markerLocations) {
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: { lat: 57.26, lng: -6.32 },
-        zoom: 11
+        zoom: 9
 });
 
+
+// Object //
+maps = {
+    mapSkye,
+    mapNewquay,
+    mapCardigan,
+    mapBrighton
+}
+
+console.log(maps[locationPlace])
+
+// Placeholder for pointer locations
+if (markerLocations) {
+    for (let i=0; i < markerLocations.length; i++) {
+            let marker = new google.maps.Marker ({
+                position: markerLocations[i].coord,
+                map: maps[locationPlace],
+                animation: google.maps.Animation.DROP,
+            });
+
+            // Marker info window
+
+            let infoWindow = new google.maps.InfoWindow ({
+                content: markerLocations[i].content,
+            });
+
+            // Close previous info window
+
+            google.maps.event.addListener(marker, 'click', function(){
+                if (currentinfoWindow == null) {
+                    currentinfoWindow.close();
+                }
+                infoWindow.open(maps[locationPlace], marker);
+                currentInfoWindow = InfoWindow;
+            });
+
+            let currentInfoWindow = null;
+            
+        }
+}
 }
 
 // Map marker co-ordinates
@@ -32,29 +74,11 @@ function initMap(markerLocations) {
 
 // Activities Isle of Skye
 
-let markerLocations = [{
-    coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    content: `<h4 class = "marker-head">Bella Jane</h4>
-    <div class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg">
-    </div>`
-},
-{    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    content: `<h4 class = "marker-head">A.C.E Target Sports</h4>
-    <div class = "marker-image>
-    <img src="assets/images/BellaJaneActivity.jpg">
-    </div>`
-    }];
+
 
 // Placeholder for pointer locations
 
-let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+/* let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
      if (markerLocations) {
         for (let i=0; i < markerLocations.length; i++) {
@@ -83,22 +107,41 @@ let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             let currentInfoWindow = null;
             
         }
-    }
+    } */
 
 // Event listeners for makers and call recommendation cards
 
 document.getElementById("btn-activities").addEventListener("click",() => {
-    initMap(markerLocations);
+    let skyeActivityLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    content: `<h4 class = "marker-head">Bella Jane</h4>
+    <div class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg">
+    </div>`
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    content: `<h4 class = "marker-head">A.C.E Target Sports</h4>
+    <div class = "marker-image>
+    <img src="assets/images/BellaJaneActivity.jpg">
+    </div>`
+    }];
+    initMap(skyeActivityLocations, "mapSkye");
     skyeActivities();
 });
 
 document.getElementById("btn-restaurants").addEventListener("click",() => {
-    initMap(markerLocations);
+    initMap(markerLocations, "mapSkye");
     skyeRestaurants();
 });
 
 document.getElementById("btn-hotels").addEventListener("click",() => {
-    initMap(markerLocations);
+    initMap(markerLocations, "mapSkye");
     skyeHotels();
 });
 
