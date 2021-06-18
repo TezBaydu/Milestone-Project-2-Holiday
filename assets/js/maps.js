@@ -57,7 +57,7 @@ if (markerLocations) {
             google.maps.event.addListener(marker, 'click', function(){
                 if (currentinfoWindow == null) {
                     currentinfoWindow.close();
-                }
+                } else
                 infoWindow.open(maps[locationPlace], marker);
                 currentInfoWindow = InfoWindow;
             });
@@ -75,39 +75,6 @@ if (markerLocations) {
 // Activities Isle of Skye
 
 
-
-// Placeholder for pointer locations
-
-/* let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-     if (markerLocations) {
-        for (let i=0; i < markerLocations.length; i++) {
-            let marker = new google.maps.Marker ({
-                position: markerLocations[i].coord,
-                map: mapSkye,
-                animation: google.maps.Animation.DROP,
-            });
-
-            // Marker info window
-
-            let infoWindow = new google.maps.InfoWindow ({
-                content: markerLocations[i].content,
-            });
-
-            // Close previous info window
-
-            google.maps.event.addListener(marker, 'click', function(){
-                if (currentinfoWindow == null) {
-                    currentinfoWindow.close();
-                }
-                infoWindow.open(mapSkye, marker);
-                currentInfoWindow = InfoWindow;
-            });
-
-            let currentInfoWindow = null;
-            
-        }
-    } */
 
 // Event listeners for makers and call recommendation cards
 
@@ -150,17 +117,17 @@ document.getElementById("btn-hotels").addEventListener("click",() => {
 
 function skyeActivities() {
     clearCards();
-    documentGetElementById("activities-int").style.display = "block";
+    document.getElementById("activities-int").style.display = "block";
 }
 
 function skyeRestaurants() {
     clearCards();
-    documentGetElementById("restaurants-int").style.display = "block";
+    document.getElementById("restaurants-int").style.display = "block";
 }
 
 function skyeHotels() {
     clearCards();
-    documentGetElementById("hotels-int").style.display = "block";
+    document.getElementById("hotels-int").style.display = "block";
 }
 
 // Function to clear previous selection cards
