@@ -23,7 +23,8 @@ function initMap(markerLocations, locationPlace) {
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: { lat: 57.26, lng: -6.32 },
-        zoom: 9
+        zoom: 9,
+       /* disableDefaultUI: true */
 });
 
 
@@ -35,7 +36,7 @@ maps = {
     mapBrighton
 }
 
-console.log(maps[locationPlace])
+// console.log(maps[locationPlace])
 
 // Placeholder for pointer locations
 if (markerLocations) {
@@ -48,8 +49,8 @@ if (markerLocations) {
 
             // Marker info window
 
-            let infoWindow = new google.maps.InfoWindow ({
-                content: markerLocations[i].content,
+            const infoWindow = new google.maps.InfoWindow ({
+                content: markerLocations[i].contents,
             });
 
             // Close previous info window
@@ -62,7 +63,7 @@ if (markerLocations) {
                 currentInfoWindow = infoWindow;
             });
 
-            let currentInfoWindow = null;
+            var currentInfoWindow = null;
             
         } 
 } 
@@ -82,7 +83,7 @@ document.getElementById("btn-activities").addEventListener("click",() => {
         lat: 57.1472,
         lng: -6.1069
     }, // Bella Jane
-    content: `<h4 class = "marker-head">Bella Jane</h4>
+    contents: `<h4 class = "marker-head">Bella Jane</h4>
     <div class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg">
     </div>`
@@ -91,8 +92,8 @@ document.getElementById("btn-activities").addEventListener("click",() => {
         lat: 57.4038,
         lng: -6.2381
     }, // A.C.E Target Sports
-    content: `<h4 class = "marker-head">A.C.E Target Sports</h4>
-    <div class = "marker-image>
+    contents: `<h4 class = "marker-head">A.C.E Target Sports</h4>
+    <div class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg">
     </div>`
     }];
