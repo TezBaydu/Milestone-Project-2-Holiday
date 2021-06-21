@@ -54,18 +54,18 @@ if (markerLocations) {
 
             // Close previous info window
 
-            google.maps.event.addListener(marker, 'click', function(){
-                if (currentinfoWindow == null) {
-                    currentinfoWindow.close();
-                } else
+           google.maps.event.addListener(marker, 'click', function() {
+                if (currentInfoWindow != null) {
+                    currentInfoWindow.close();
+                } 
                 infoWindow.open(maps[locationPlace], marker);
-                currentInfoWindow = InfoWindow;
+                currentInfoWindow = infoWindow;
             });
 
             let currentInfoWindow = null;
             
-        }
-}
+        } 
+} 
 }
 
 // Map marker co-ordinates
@@ -73,8 +73,6 @@ if (markerLocations) {
 // Isle of Skye
 
 // Activities Isle of Skye
-
-
 
 // Event listeners for makers and call recommendation cards
 
