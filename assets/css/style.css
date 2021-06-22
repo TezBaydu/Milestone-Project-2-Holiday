@@ -242,7 +242,7 @@ body {
     background-color: #bcc7af;
 }
 
-.card img {
+.card-img-top {
     padding: 3% 20% 0;
 }
 
@@ -469,7 +469,7 @@ form {
 }
 
 @media (max-width: 1199px) {
-    .card img {
+    .card-img-top {
         padding: 3% 5% 0;
     }
 

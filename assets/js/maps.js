@@ -23,7 +23,8 @@ function initMap(markerLocations, locationPlace) {
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: { lat: 57.26, lng: -6.32 },
-        zoom: 9,
+        zoom: 8,
+        position: mapSkye
        /* disableDefaultUI: true */
 });
 
