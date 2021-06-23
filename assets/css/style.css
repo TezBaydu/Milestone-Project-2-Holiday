@@ -337,17 +337,30 @@ body {
     padding: 0 15px 15px 15px;
 }
 
-#activities-int {
+#cardigan-activities-int {
     display: none;
 }
 
-#restaurants-int {
+#cardigan-restaurants-int {
     display: none;
 }
 
-#hotels-int {
+#cardigan-hotels-int {
     display: none;
 }
+
+#skye-activities-int {
+    display: none;
+}
+
+#skye-restaurants-int {
+    display: none;
+}
+
+#skye-hotels-int {
+    display: none;
+}
+
 
 /* Contact section */
 

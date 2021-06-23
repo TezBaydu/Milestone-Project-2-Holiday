@@ -72,13 +72,109 @@ if (markerLocations) {
 
 // Map marker co-ordinates
 
+// Cardigan
+
+// Activities Cardigan
+
+document.getElementById("btn-cardigan-activities").addEventListener("click",() => {
+    let cardiganActivityLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(cardiganActivityLocations, "mapCardigan");
+    cardiganActivities();
+});
+
+// Restaurants for Cardigan
+
+document.getElementById("btn-cardigan-restaurants").addEventListener("click",() => {
+    let cardiganRestaurantLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(cardiganRestaurantLocations, "mapCardigan");
+    cardiganRestaurants();
+});
+
+// Hotels for Cardigan
+
+document.getElementById("btn-cardigan-hotels").addEventListener("click",() => {
+    let cardiganRestaurantLocations = [{}];
+    initMap(cardiganRestaurantLocations, "mapCardigan");
+    cardiganHotels();
+});
+
+
+// Functions to display cards
+
+// Cardigan disply cards
+
+function cardiganActivities() {
+    clearCardiganCards();
+    document.getElementById("cardigan-activities-int").style.display = "block";
+}
+
+function cardiganRestaurants() {
+    clearCardiganCards();
+    document.getElementById("cardigan-restaurants-int").style.display = "block";
+}
+
+function cardiganHotels() {
+    clearCardiganCards();
+    document.getElementById("cardigan-hotels-int").style.display = "block";
+}
+
+// Function to clear previous selection cards
+
+// Cardigan cards to clear
+
+function clearCardiganCards() {
+    document.getElementById("cardigan-activities-int").style.display ="none";
+    document.getElementById("cardigan-restaurants-int").style.display ="none";
+    document.getElementById("cardigan-hotels-int").style.display ="none";
+
+}
+
+
 // Isle of Skye
 
 // Activities Isle of Skye
 
-// Event listeners for makers and call recommendation cards
-
-document.getElementById("btn-activities").addEventListener("click",() => {
+document.getElementById("btn-skye-activities").addEventListener("click",() => {
     let skyeActivityLocations = [{
     coord: {
         lat: 57.1472,
@@ -104,39 +200,69 @@ document.getElementById("btn-activities").addEventListener("click",() => {
     skyeActivities();
 });
 
-document.getElementById("btn-restaurants").addEventListener("click",() => {
-    initMap(markerLocations, "mapSkye");
+// Restaurants for Isle of Skye
+
+document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
+    let skyeRestaurantLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(skyeRestaurantLocations, "mapSkye");
     skyeRestaurants();
 });
 
-document.getElementById("btn-hotels").addEventListener("click",() => {
-    initMap(markerLocations, "mapSkye");
+// Hotels for Isle of Skye
+
+document.getElementById("btn-skye-hotels").addEventListener("click",() => {
+    let skyeRestaurantLocations = [{}];
+    initMap(skyeRestaurantLocations, "mapSkye");
     skyeHotels();
 });
 
 
 // Functions to display cards
 
+// Skye display cards
+
 function skyeActivities() {
-    clearCards();
-    document.getElementById("activities-int").style.display = "block";
+    clearSkyeCards();
+    document.getElementById("skye-activities-int").style.display = "block";
 }
 
 function skyeRestaurants() {
-    clearCards();
-    document.getElementById("restaurants-int").style.display = "block";
+    clearSkyeCards();
+    document.getElementById("skye-restaurants-int").style.display = "block";
 }
 
 function skyeHotels() {
-    clearCards();
-    document.getElementById("hotels-int").style.display = "block";
+    clearSkyeCards();
+    document.getElementById("skye-hotels-int").style.display = "block";
 }
 
 // Function to clear previous selection cards
 
-function clearCards() {
-    document.getElementById("activities-int").style.display ="none";
-    document.getElementById("restaurants-int").style.display ="none";
-    document.getElementById("hotels-int").style.display ="none";
+// Skye cards to clear
+
+function clearSkyeCards() {
+    document.getElementById("skye-activities-int").style.display ="none";
+    document.getElementById("skye-restaurants-int").style.display ="none";
+    document.getElementById("skye-hotels-int").style.display ="none";
 
 }
