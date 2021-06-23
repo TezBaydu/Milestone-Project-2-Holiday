@@ -45,6 +45,15 @@
     <!-- CSS link-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- EmailJS-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_jtbYcTDIFOX4Z8NAmbqq3");
+        })();
+    </script>
+
     <title>Staycation Britain</title>
 
 </head>
@@ -616,24 +625,19 @@
         <h2 id="contact" class="text-center">Contact</h2>
         <p class="text-center contact-desc">Contact us for any advice on these or any other places to stay in Britain
             and also sign up for our free email newsletter for the latest updates</p>
-        <form onsubmit="alert('Thanks for getting in touch, we will contact you soon.')" id="contact-form" method="POST"
-            action="" onsubmit="handleSubmit(event);">
-            <div class="name-row">
-                <input type="text" class="form-control" aria label="Name" placeholder="Name:" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="contactEmail"></label>
-                <input type="email" class="form-control" aria-label="email" id="contactEmail"
-                    placeholder="Email: name@example.com" required>
-            </div>
-            <div class="form-group">
-                <label for="contactMessage"></label>
-                <textarea class="form-control message-area" aria-label="message" id="contactMessage"
-                    placeholder="Message:" required></textarea>
-            </div>
 
+        <form onsubmit="sendMail(this); alert('Thanks for getting in touch, we will contact you soon.'); return">
+            
+                <input type="text" name ="name" class="form-control" placeholder="Name:" id="name" required>
+                    <br>
+                <input type="email" name ="email" class="form-control" id="contactEmail"
+                    placeholder="Email: name@example.com" required>
+                    <br>
+                <textarea class="form-control message-area" name ="message" id="contactMessage"
+                    placeholder="Message:" required></textarea>
+            
             <div class="bd-example">
-                <button type="submit" class="btn btn-outline-info">Submit</button>
+                <button  type="submit" class="btn btn-outline-info">Submit</button>
             </div>
         </form>
     </div>
@@ -707,5 +711,7 @@
 <script src="assets/js/maps.js"></script>
 
 <link rel="stylesheet" href="assets/css/mapmarkerstyle.css">
+
+<script src="assets/js/email.js"></script>
 
 </html>
