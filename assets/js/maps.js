@@ -23,9 +23,9 @@ function initMap(markerLocations, locationPlace) {
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: { lat: 57.26, lng: -6.32 },
-        zoom: 8,
-        position: mapSkye
-       /* disableDefaultUI: true */
+        zoom: 9,
+        position: mapSkye,
+        /* disableDefaultUI: true */
 });
 
 
@@ -84,19 +84,21 @@ document.getElementById("btn-activities").addEventListener("click",() => {
         lat: 57.1472,
         lng: -6.1069
     }, // Bella Jane
-    contents: `<h4 class = "marker-head">Bella Jane</h4>
-    <div class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg">
-    </div>`
+    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
 },
 {    coord: {
         lat: 57.4038,
         lng: -6.2381
     }, // A.C.E Target Sports
-    contents: `<h4 class = "marker-head">A.C.E Target Sports</h4>
-    <div class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg">
-    </div>`
+    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
     }];
     initMap(skyeActivityLocations, "mapSkye");
     skyeActivities();

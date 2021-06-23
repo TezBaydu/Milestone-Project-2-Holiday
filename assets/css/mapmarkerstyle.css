@@ -6,7 +6,8 @@
 
 
 .card .marker-image img {
-    max-width: fit-content;
+    height: 50px;
+    border-radius: 5px;
 
 }
 
