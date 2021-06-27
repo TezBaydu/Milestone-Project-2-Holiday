@@ -337,6 +337,30 @@ body {
     padding: 0 15px 15px 15px;
 }
 
+#brighton-activities-int {
+    display: none;
+}
+
+#brighton-restaurants-int {
+    display: none;
+}
+
+#brighton-hotels-int {
+    display: none;
+}
+
+#newquay-activities-int {
+    display: none;
+}
+
+#newquay-restaurants-int {
+    display: none;
+}
+
+#newquay-hotels-int {
+    display: none;
+}
+
 #cardigan-activities-int {
     display: none;
 }
