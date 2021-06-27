@@ -23,8 +23,7 @@ function initMap(markerLocations, locationPlace) {
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: { lat: 57.26, lng: -6.32 },
-        zoom: 9,
-        position: mapSkye,
+        zoom: 9
         /* disableDefaultUI: true */
 });
 
@@ -71,6 +70,200 @@ if (markerLocations) {
 }
 
 // Map marker co-ordinates
+
+// Brighton
+
+// Activities Brighton
+
+document.getElementById("btn-brighton-activities").addEventListener("click",() => {
+    let brightonActivityLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(brightonActivityLocations, "mapBrighton");
+    brightonActivities();
+});
+
+// Restaurants for Brighton
+
+document.getElementById("btn-brighton-restaurants").addEventListener("click",() => {
+    let brightonRestaurantLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(brightonRestaurantLocations, "mapBrighton");
+    brightonRestaurants();
+});
+
+// Hotels for Brighton
+
+document.getElementById("btn-brighton-hotels").addEventListener("click",() => {
+    let brightonRestaurantLocations = [{}];
+    initMap(brightonRestaurantLocations, "mapBrighton");
+    brightonHotels();
+});
+
+
+// Functions to display cards
+
+// Brighton disply cards
+
+function brightonActivities() {
+    clearBrightonCards();
+    document.getElementById("brighton-activities-int").style.display = "block";
+}
+
+function brightonRestaurants() {
+    clearBrightonCards();
+    document.getElementById("brighton-restaurants-int").style.display = "block";
+}
+
+function brightonHotels() {
+    clearBrightonCards();
+    document.getElementById("brighton-hotels-int").style.display = "block";
+}
+
+// Function to clear previous selection cards
+
+// Brighton cards to clear
+
+function clearBrightonCards() {
+    document.getElementById("brighton-activities-int").style.display ="none";
+    document.getElementById("brighton-restaurants-int").style.display ="none";
+    document.getElementById("brighton-hotels-int").style.display ="none";
+
+}
+
+// Newquay
+
+// Activities Newquay
+
+document.getElementById("btn-newquay-activities").addEventListener("click",() => {
+    let newquayActivityLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(newquayActivityLocations, "mapNewquay");
+    newquayActivities();
+});
+
+// Restaurants for Newquay
+
+document.getElementById("btn-newquay-restaurants").addEventListener("click",() => {
+    let newquayRestaurantLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(newquayRestaurantLocations, "mapNewquay");
+    newquayRestaurants();
+});
+
+// Hotels for Newquay
+
+document.getElementById("btn-newquay-hotels").addEventListener("click",() => {
+    let newquayRestaurantLocations = [{}];
+    initMap(newquayRestaurantLocations, "mapNewquay");
+    newquayHotels();
+});
+
+
+// Functions to display cards
+
+// Newquay disply cards
+
+function newquayActivities() {
+    clearNewquayCards();
+    document.getElementById("newquay-activities-int").style.display = "block";
+}
+
+function newquayRestaurants() {
+    clearNewquayCards();
+    document.getElementById("newquay-restaurants-int").style.display = "block";
+}
+
+function newquayHotels() {
+    clearNewquayCards();
+    document.getElementById("newquay-hotels-int").style.display = "block";
+}
+
+// Function to clear previous selection cards
+
+// Newquay cards to clear
+
+function clearNewquayCards() {
+    document.getElementById("newquay-activities-int").style.display ="none";
+    document.getElementById("newquay-restaurants-int").style.display ="none";
+    document.getElementById("newquay-hotels-int").style.display ="none";
+
+}
 
 // Cardigan
 
