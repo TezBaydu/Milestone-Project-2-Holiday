@@ -5,9 +5,14 @@
 /* -- Map marker styling --*/
 
 
+.marker-image {
+    float: right;
+}
+
 .card .marker-image img {
     height: 50px;
     border-radius: 5px;
+    margin-left: 5px;
 
 }
 

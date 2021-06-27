@@ -84,6 +84,7 @@ document.getElementById("btn-brighton-activities").addEventListener("click",() =
     contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -94,6 +95,7 @@ document.getElementById("btn-brighton-activities").addEventListener("click",() =
     contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -112,6 +114,7 @@ document.getElementById("btn-brighton-restaurants").addEventListener("click",() 
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -122,6 +125,7 @@ document.getElementById("btn-brighton-restaurants").addEventListener("click",() 
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -132,11 +136,32 @@ document.getElementById("btn-brighton-restaurants").addEventListener("click",() 
 // Hotels for Brighton
 
 document.getElementById("btn-brighton-hotels").addEventListener("click",() => {
-    let brightonRestaurantLocations = [{}];
-    initMap(brightonRestaurantLocations, "mapBrighton");
+    let brightonHotelLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(brightonHotelLocations, "mapBrighton");
     brightonHotels();
 });
-
 
 // Functions to display cards
 
@@ -181,6 +206,7 @@ document.getElementById("btn-newquay-activities").addEventListener("click",() =>
     contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -191,6 +217,7 @@ document.getElementById("btn-newquay-activities").addEventListener("click",() =>
     contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -209,6 +236,7 @@ document.getElementById("btn-newquay-restaurants").addEventListener("click",() =
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -219,6 +247,7 @@ document.getElementById("btn-newquay-restaurants").addEventListener("click",() =
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -229,8 +258,30 @@ document.getElementById("btn-newquay-restaurants").addEventListener("click",() =
 // Hotels for Newquay
 
 document.getElementById("btn-newquay-hotels").addEventListener("click",() => {
-    let newquayRestaurantLocations = [{}];
-    initMap(newquayRestaurantLocations, "mapNewquay");
+    let newquayHotelLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(newquayHotelLocations, "mapNewquay");
     newquayHotels();
 });
 
@@ -278,6 +329,7 @@ document.getElementById("btn-cardigan-activities").addEventListener("click",() =
     contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -288,6 +340,7 @@ document.getElementById("btn-cardigan-activities").addEventListener("click",() =
     contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -306,6 +359,7 @@ document.getElementById("btn-cardigan-restaurants").addEventListener("click",() 
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -316,6 +370,7 @@ document.getElementById("btn-cardigan-restaurants").addEventListener("click",() 
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -326,8 +381,30 @@ document.getElementById("btn-cardigan-restaurants").addEventListener("click",() 
 // Hotels for Cardigan
 
 document.getElementById("btn-cardigan-hotels").addEventListener("click",() => {
-    let cardiganRestaurantLocations = [{}];
-    initMap(cardiganRestaurantLocations, "mapCardigan");
+    let cardiganHotelLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(cardiganHotelLocations, "mapCardigan");
     cardiganHotels();
 });
 
@@ -376,7 +453,20 @@ document.getElementById("btn-skye-activities").addEventListener("click",() => {
     contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{
+    coord: {
+        lat: 57.2388,
+        lng: -5.8941
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">Sea Kayak<span class = "marker-image">
+    <img src="assets/images/Sea-Kayak-Plockton.jpg"  alt = "Sea Kayak">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.seakayakplockton.co.uk/">www.seakayakplockton.co.uk</a> </div>
     `
 },
 {    coord: {
@@ -386,6 +476,7 @@ document.getElementById("btn-skye-activities").addEventListener("click",() => {
     contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -404,6 +495,7 @@ document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
     `
 },
@@ -414,6 +506,7 @@ document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
     <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
     </span></h5>
+    <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
     `
     }];
@@ -424,8 +517,30 @@ document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
 // Hotels for Isle of Skye
 
 document.getElementById("btn-skye-hotels").addEventListener("click",() => {
-    let skyeRestaurantLocations = [{}];
-    initMap(skyeRestaurantLocations, "mapSkye");
+    let skyeHotelLocations = [{
+    coord: {
+        lat: 57.1472,
+        lng: -6.1069
+    }, // Bella Jane
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    `
+},
+{    coord: {
+        lat: 57.4038,
+        lng: -6.2381
+    }, // A.C.E Target Sports
+    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
+    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    `
+    }];
+    initMap(skyeHotelLocations, "mapSkye");
     skyeHotels();
 });
 
