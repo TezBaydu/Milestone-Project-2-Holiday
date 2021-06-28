@@ -7,8 +7,8 @@ let mapSkye;
 
 function initMap(markerLocations, locationPlace) {
     mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
-        center: { lat: 50.88, lng: -0.15 },
-        zoom: 11
+        center: { lat: 50.83, lng: -0.15 },
+        zoom: 13
     });
 
     mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
@@ -77,7 +77,7 @@ if (markerLocations) {
 
 document.getElementById("btn-brighton-activities").addEventListener("click",() => {
     let brightonActivityLocations = [{
-    coord: {
+     coord: {
         lat: 50.82164,
         lng: -0.15259
     }, // I 360
@@ -87,7 +87,7 @@ document.getElementById("btn-brighton-activities").addEventListener("click",() =
     <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://britishairwaysi360.com/">www.britishairwaysi360.com</a> </div>
     `
-},
+    },
 {    coord: {
         lat: 50.81957,
         lng: -0.13535
@@ -196,25 +196,113 @@ document.getElementById("btn-brighton-activities").addEventListener("click",() =
 document.getElementById("btn-brighton-restaurants").addEventListener("click",() => {
     let brightonRestaurantLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 50.82515,
+        lng: -0.15338
+    }, // Baqueano
+    contents: `<h5 class = "marker-head">Baqueano<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Baqueano.png"  alt = "Baqueano restaurant">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.baqueano.co.uk/">www.baqueano.co.uk</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 50.82720,
+        lng: -0.13695
+    }, // Isaac
+    contents: `<h5 class = "marker-head">Isaac<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Isaac.jpg"  alt = "Isaac restaurant">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.isaac-at.com/">www.isaac-at.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82716,
+        lng: -0.16765
+    }, // Wildflor
+    contents: `<h5 class = "marker-head">Wildflor<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Wildflor.jpg"  alt = "Wildflor restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.wildflor.com/">www.wildflor.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82845,
+        lng: -0.17747
+    }, // Etchfood
+    contents: `<h5 class = "marker-head">Etchfood<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Etch.jpg"  alt = "Etchfood restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.etchfood.co.uk/">www.etchfood.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82040,
+        lng: -0.13909
+    }, // Terreaterre
+    contents: `<h5 class = "marker-head">Terreaterre<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Terraterre.jpg"  alt = "Terreaterre restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://terreaterre.co.uk/">www.terreaterre.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82500,
+        lng: -0.15712
+    }, // The Little Fish Market
+    contents: `<h5 class = "marker-head">The Little Fish Market<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-thelittlefishmarket.jpg"  alt = "The Little Fish Market restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.thelittlefishmarket.co.uk/">www.thelittlefishmarket.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82405,
+        lng: -0.15056
+    }, // Bincho
+    contents: `<h5 class = "marker-head">Bincho<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Bincho.jpg"  alt = "Bincho restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.binchoyakitori.com/">www.binchoyakitori.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82169,
+        lng: -0.14885
+    }, // Saltroom
+    contents: `<h5 class = "marker-head">Saltroom<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Saltroom.jpg"  alt = "Saltroom restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.saltroom-restaurant.co.uk/">www.saltroom-restaurant.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.83259,
+        lng: -0.13738
+    }, // Fatto a mano
+    contents: `<h5 class = "marker-head">Fatto a mano<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Fattoamano.jpg"  alt = "Fatto a mano restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.fattoamanopizza.com/">www.fattoamanopizza.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82248,
+        lng: -0.14145
+    }, // The Ivy Brighton
+    contents: `<h5 class = "marker-head">The Ivy Brighton<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-restaurant/Brighton-Theivy.jpg"  alt = "The Ivy Brighton restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://theivybrighton.com/">www.theivybrighton.com</a> </div>
     `
     }];
     initMap(brightonRestaurantLocations, "mapBrighton");
