@@ -314,25 +314,113 @@ document.getElementById("btn-brighton-restaurants").addEventListener("click",() 
 document.getElementById("btn-brighton-hotels").addEventListener("click",() => {
     let brightonHotelLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 50.819,
+        lng: -0.1278
+    }, // Red Brighton Blue
+    contents: `<h5 class = "marker-head">Red Brighton Blue<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Redbrightonblue.jpg"  alt = "Red Brighton Blue Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.redbrightonblue.com/">www.redbrightonblue.com</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 50.82039,
+        lng: -0.13434
+    }, // Brighton Wave
+    contents: `<h5 class = "marker-head">Brighton Wave<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Brightonwave.jpg"  alt = "Brighton Wave Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.brightonwave.com/">www.brightonwave.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82155,
+        lng: -0.14733
+    }, // The Grand
+    contents: `<h5 class = "marker-head">The Grand<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Thegrand.jpg"  alt = "The Grand Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.grandbrighton.co.uk/">www.grandbrighton.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82169,
+        lng: -0.14885
+    }, // Hilton
+    contents: `<h5 class = "marker-head">Hilton Metropole Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Hilton.jpg"  alt = "Hilton Metropole Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.hilton.com/en/hotels/bshmetw-hilton-brighton-metropole/">www.hilton.com/brighton-metropole</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.81943,
+        lng: -0.13070
+    }, // A Room with a View
+    contents: `<h5 class = "marker-head">A Room with a View<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Aroomwithaview.jpg"  alt = "A Room with a View Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.aroomwithaviewbrighton.com/">www.aroomwithaviewbrighton.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.81284,
+        lng: -0.10219
+    }, // Malmaison
+    contents: `<h5 class = "marker-head">Malmaison<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Malmaison.jpg"  alt = "Malmaison Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.malmaison.com/locations/brighton/">www.malmaison.com/brighton</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82004,
+        lng: -0.13136
+    }, // Sea Spray
+    contents: `<h5 class = "marker-head">Sea Spray<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Seaspray.jpg"  alt = "Sea Spray Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.brightonwave.com/">www.brightonwave.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82170,
+        lng: -0.14219
+    }, // Hotel Duvin
+    contents: `<h5 class = "marker-head">Hotel Duvin<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Duvin.jpg"  alt = "Hotel Duvin">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.hotelduvin.com/locations/brighton/">www.hotelduvin.com/brighton</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.81919,
+        lng: -0.12783
+    }, // The 21
+    contents: `<h5 class = "marker-head">The 21<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-The21.jpg"  alt = "The 21 Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://thetwentyone.co.uk/">www.thetwentyone.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.82240,
+        lng: -0.14986
+    }, // Hotel Una
+    contents: `<h5 class = "marker-head">Hotel Una<span class = "marker-image">
+    <img src="assets/images/marker-images/brighton-hotels/Brighton-Una.jpg"  alt = "Hotel Una">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.hotel-una.co.uk/">www.hotel-una.co.uk</a> </div>
     `
     }];
     initMap(brightonHotelLocations, "mapBrighton");
