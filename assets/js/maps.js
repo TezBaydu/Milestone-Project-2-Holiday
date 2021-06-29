@@ -464,25 +464,113 @@ function clearBrightonCards() {
 document.getElementById("btn-newquay-activities").addEventListener("click",() => {
     let newquayActivityLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 50.41452,
+        lng: -5.07184
+    }, // Newquay Zoo
+    contents: `<h5 class = "marker-head">Newquay Zoo<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Zoo.jpg"  alt = "Newquay Zoo">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.newquayzoo.org.uk/">www.newquayzoo.org.uk</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 50.41483,
+        lng: -5.08373
+    }, // Blue Reef Aquarium
+    contents: `<h5 class = "marker-head">Blue Reef Aquarium<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Bluereef.jpg"  alt = "Blue Reef Aquarium">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.bluereefaquarium.co.uk/newquay/">www.bluereefaquarium.co.uk/newquay</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41243,
+        lng: -5.08311
+    }, // Pirates Quest
+    contents: `<h5 class = "marker-head">Pirates Quest<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Piratesquest.jpg"  alt = "Pirates Quest">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.piratesquest.co.uk/">www.piratesquest.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.37339,
+        lng: -5.04870
+    }, // Lappa Valley
+    contents: `<h5 class = "marker-head">Lappa Valley<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Lappavalley.jpg"  alt = "Lappa Valley">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.lappavalley.co.uk/">www.lappavalley.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.09120,
+        lng: -5.25929
+    }, // Flambards
+    contents: `<h5 class = "marker-head">Flambards<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Flambards.jpg"  alt = "Flambards">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.flambards.co.uk/">www.flambards.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.38349,
+        lng: -5.01027
+    }, // Dairyland Farm Park
+    contents: `<h5 class = "marker-head">Dairyland Farm Park<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Dairyland.jpg"  alt = "Dairyland Farm Park">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://dairylandfarmpark.com/">www.dairylandfarmpark.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41888,
+        lng: -5.09716
+    }, // Fistral Beach Surf School
+    contents: `<h5 class = "marker-head">Fistral Beach Surf School<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Fistralbeachsurf.jpg"  alt = "Fistral Beach Surf School">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.fistralbeachsurfschool.co.uk/">www.fistralbeachsurfschool.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.25309,
+        lng: -5.24122
+    }, // Cornwall Gold
+    contents: `<h5 class = "marker-head">Cornwall Gold<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Gold.jpg"  alt = "Cornwall Gold">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.cornwall-gold.com/">www.cornwall-gold.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.48329,
+        lng: -5.01093
+    }, // Cornwall Karting
+    contents: `<h5 class = "marker-head">Cornwall Karting<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Kart.jpg"  alt = "Cornwall Karting">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.cornwallkarting.com/">www.cornwallkarting.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41528,
+        lng: -5.08693
+    }, // Escape Surf School
+    contents: `<h5 class = "marker-head">Escape Surf School<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-activity/Newquay-Escapesurf.jpg"  alt = "Escape Surf School">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.escapesurfschool.co.uk/">www.escapesurfschool.co.uk</a> </div>
     `
     }];
     initMap(newquayActivityLocations, "mapNewquay");
@@ -494,25 +582,113 @@ document.getElementById("btn-newquay-activities").addEventListener("click",() =>
 document.getElementById("btn-newquay-restaurants").addEventListener("click",() => {
     let newquayRestaurantLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 50.41447,
+        lng: -5.08690
+    }, // Bush Pepper
+    contents: `<h5 class = "marker-head">Bush Pepper<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Bushpepper.jpg"  alt = "Bush Pepper Restaurant">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://bushpepper.co.uk/">www.bushpepper.co.uk</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 50.42035,
+        lng: -5.09706
+    }, // The Fish House
+    contents: `<h5 class = "marker-head">The Fish House<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Thefishhouse.jpg"  alt = "The Fish House Restaurant">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.thefishhousefistral.com/">www.thefishhousefistral.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41634,
+        lng: -5.08711
+    }, // The Boathouse
+    contents: `<h5 class = "marker-head">The Boathouse<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Theboathouse.jpg"  alt = "The Boathouse Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.the-boathouse-newquay.co.uk/">www.the-boathouse-newquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.413254,
+        lng: -5.086685
+    }, // Wax
+    contents: `<h5 class = "marker-head">Wax<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Wax.jpg"  alt = "Wax Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://waxnewquay.co.uk/">www.waxnewquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41437,
+        lng: -5.07717
+    }, // The Portuguese
+    contents: `<h5 class = "marker-head">The Portuguese<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Theportuguese.jpg"  alt = "The Portuguese Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.theportugueserestaurant.com/">www.theportugueserestaurant.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.418,
+        lng: -5.097
+    }, // Fistral Stable Pizza
+    contents: `<h5 class = "marker-head">Fistral Stable Pizza<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Stablepizza.jpg"  alt = "Fistral Stable Pizza Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://fistral.stablepizza.com/">www.fistral.stablepizza.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41578,
+        lng: -5.07595
+    }, // Maharajah
+    contents: `<h5 class = "marker-head">Maharajah<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Maharajah.jpg"  alt = "Maharajah Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://maharajah-restaurant.co.uk/">www.maharajah-restaurant.co.uk/</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41888,
+        lng: -5.09716
+    }, // Rick Stein
+    contents: `<h5 class = "marker-head">Rick Stein<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Rickstein.jpg"  alt = "Rick Stein Restaurant Fistral">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.rickstein.com/restaurants/fistral/">www.rickstein.com/restaurants/fistral</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41524,
+        lng: -5.07524
+    }, // Kahuna
+    contents: `<h5 class = "marker-head">Kahuna<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Kahuna.jpg"  alt = "Kahuna Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.kahunarestaurant.co.uk/">www.kahunarestaurant.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41418,
+        lng: -5.08085
+    }, // Flounders Fish & Chips
+    contents: `<h5 class = "marker-head">Flounders Fish & Chips<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-restaurant/Newquay-Flounders.jpg"  alt = "Flounders Fish & Chips Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.facebook.com/FloundersFishChips/">www.facebook.com/FloundersFishChips</a> </div>
     `
     }];
     initMap(newquayRestaurantLocations, "mapNewquay");
@@ -524,25 +700,113 @@ document.getElementById("btn-newquay-restaurants").addEventListener("click",() =
 document.getElementById("btn-newquay-hotels").addEventListener("click",() => {
     let newquayHotelLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 50.42035,
+        lng: -5.09706
+    }, // Headland
+    contents: `<h5 class = "marker-head">Headland<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Headland.jpg"  alt = "Headland Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.headlandhotel.co.uk/">www.headlandhotel.co.uk</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 50.41793,
+        lng: -5.08814
+    }, // Harbour
+    contents: `<h5 class = "marker-head">Harbour<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Harbour.jpg"  alt = "Harbour Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.harbourhotel.co.uk/">www.harbourhotel.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41479,
+        lng: -5.07739
+    }, // Griffin Newquay
+    contents: `<h5 class = "marker-head">Griffin Newquay<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Griffin.jpg"  alt = "Griffin Newquay Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://griffin-newquay.co.uk/">www.griffin-newquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.42587,
+        lng: -5.05350
+    }, // Porth Beach
+    contents: `<h5 class = "marker-head">Porth Beach<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Porthbeach.jpg"  alt = "Porth Beach Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.porthbeachhotel.co.uk/">www.porthbeachhotel.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41919,
+        lng: -5.09324
+    }, // Oceanside
+    contents: `<h5 class = "marker-head">Oceanside<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Oceanside.jpg"  alt = "Oceanside Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.oceansidehotel.co.uk/">www.oceansidehotel.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41219,
+        lng: -5.10071
+    }, // 15 Ocean Gate
+    contents: `<h5 class = "marker-head">15 Ocean Gate<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-15oceangate.jpg"  alt = "15 Ocean Gate Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.15oceangate.co.uk/">www.15oceangate.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41202,
+        lng: -5.10350
+    }, // Esplanade
+    contents: `<h5 class = "marker-head">Esplanade<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Esplanade.jpg"  alt = "Esplanade Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.esplanadehotelnewquay.co.uk/">www.esplanadehotelnewquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41936,
+        lng: -5.08904
+    }, // Atlantic
+    contents: `<h5 class = "marker-head">Atlantic<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Atlantic.jpg"  alt = "Atlantic Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://atlantichotelnewquay.co.uk/">www.atlantichotelnewquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41508,
+        lng: -5.08153
+    }, // Lazy Waves
+    contents: `<h5 class = "marker-head">Lazy Waves<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Lazywaves.jpg"  alt = "Lazy Waves Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.lazywavesnewquay.co.uk/">www.lazywavesnewquay.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 50.41196,
+        lng: -5.08021
+    }, // Glendeavour
+    contents: `<h5 class = "marker-head">Glendeavour<span class = "marker-image">
+    <img src="assets/images/marker-images/newquay-hotels/Newquay-Gelndeavour.jpg"  alt = "Glendeavour Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://www.glendeveornewquay.co.uk/">www.glendeveornewquay.co.uk</a> </div>
     `
     }];
     initMap(newquayHotelLocations, "mapNewquay");
@@ -552,7 +816,7 @@ document.getElementById("btn-newquay-hotels").addEventListener("click",() => {
 
 // Functions to display cards
 
-// Newquay disply cards
+// Newquay display cards
 
 function newquayActivities() {
     clearNewquayCards();
