@@ -17,8 +17,8 @@ function initMap(markerLocations, locationPlace) {
 });
 
     mapCardigan = new google.maps.Map(document.getElementById("map-cardigan"), {
-        center: { lat: 52.88, lng: -4.22 },
-        zoom: 11
+        center: { lat: 52.22, lng: -4.51488 },
+        zoom: 9
 });
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
@@ -851,25 +851,113 @@ function clearNewquayCards() {
 document.getElementById("btn-cardigan-activities").addEventListener("click",() => {
     let cardiganActivityLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">Bella Jane<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 52.07061,
+        lng: -4.64903
+    }, // Welsh Wildlife
+    contents: `<h5 class = "marker-head">Welsh Wildlife<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Welshwildlife.jpg"  alt = "Welsh Wildlife">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.welshwildlife.org/">www.welshwildlife.org</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">A.C.E Target Sports<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 52.11734,
+        lng: -4.68297
+    }, // Cardigan Island Farm Park
+    contents: `<h5 class = "marker-head">Cardigan Island Farm Park<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Islandfarm.jpg"  alt = "Cardigan Island Farm Park">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://cardiganisland.com/">www.cardiganisland.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.21549,
+        lng: -4.35775
+    }, // New Quay Boat Trips
+    contents: `<h5 class = "marker-head">New Quay Boat Trips<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Newquayboat.jpg"  alt = "New Quay Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://newquayboattrips.co.uk/">www.newquayboattrips.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08162,
+        lng: -4.65930
+    }, // Cardigan Bay Active
+    contents: `<h5 class = "marker-head">Cardigan Bay Active<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Cardiganbay.jpg"  alt = "Cardigan Bay Active">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://cardiganbayactive.co.uk/">www.cardiganbayactive.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.42302,
+        lng: -4.08132
+    }, // Aberystwyth Cliff Railway
+    contents: `<h5 class = "marker-head">Aberystwyth Cliff Railway<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Railway.jpg"  alt = "Aberystwyth Cliff Railway">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.aberystwythcliffrailway.co.uk/">www.aberystwythcliffrailway.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.06843,
+        lng: -4.70339
+    }, // Trenewydd Footgolf
+    contents: `<h5 class = "marker-head">Trenewydd Footgolf<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Footgolf.jpg"  alt = "Trenewydd Footgolf">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.trenewydd.com/footgolf">www.trenewydd.com/footgolf</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.11392,
+        lng: -4.51488
+    }, // In The Welsh Wind Distillery
+    contents: `<h5 class = "marker-head">In The Welsh Wind Distillery<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Welshwind.jpg"  alt = "In The Welsh Wind Distillery">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.inthewelshwind.co.uk/">www.inthewelshwind.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.11248,
+        lng: -4.68377
+    }, // Bay to Remember Boat Trips
+    contents: `<h5 class = "marker-head">Bay to Remember Boat Trips<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Bay.jpg"  alt = "Bay to Remember Boat Trips">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.baytoremember.co.uk/">www.baytoremember.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.07061,
+        lng: -4.64903
+    }, // Heritage Canoes
+    contents: `<h5 class = "marker-head">Heritage Canoes<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Heritage.jpg"  alt = "Heritage Canoes">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://heritagecanoes.squarespace.com/">www.heritagecanoes.squarespace.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08171,
+        lng: -4.66108
+    }, // Cardigan Castle
+    contents: `<h5 class = "marker-head">Cardigan Castle<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-activity/Cardigan-Castle.jpg"  alt = "Cardigan Castle">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.cardigancastle.com/">www.cardigancastle.com</a> </div>
     `
     }];
     initMap(cardiganActivityLocations, "mapCardigan");
@@ -881,25 +969,102 @@ document.getElementById("btn-cardigan-activities").addEventListener("click",() =
 document.getElementById("btn-cardigan-restaurants").addEventListener("click",() => {
     let cardiganRestaurantLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 52.08701,
+        lng: -4.68221
+    }, // The Ferry Inn
+    contents: `<h5 class = "marker-head">The Ferry Inn<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Ferryinn.jpg"  alt = "The Ferry Inn">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.theferryinn.co.uk/">www.theferryinn.co.uk</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 52.08347,
+        lng: -4.65886
+    }, // Crwst Café
+    contents: `<h5 class = "marker-head">Crwst Café<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Crwst.jpg"  alt = "Crwst Café">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://crwst.cymru/">www.crwst.cymru</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08138,
+        lng: -4.66197
+    }, // Pizza Tipi
+    contents: `<h5 class = "marker-head">Pizza Tipi<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Pizzatipi.jpg"  alt = "Pizza Tipi">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.pizzatipi.co.uk/">www.pizzatipi.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08217,
+        lng: -4.66317
+    }, // Shampan
+    contents: `<h5 class = "marker-head">Shampan<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Shampan.jpg"  alt = "Shampan Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://shampancardigan.co.uk/index.html">www.shampancardigan.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08156,
+        lng: -4.66161
+    }, // The Grosvenor
+    contents: `<h5 class = "marker-head">The Grosvenor<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Grosvenor.jpg"  alt = "The Grosvenor">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://sites.google.com/view/the-grosvenor-cardigan/home">www.the-grosvenor-cardigan</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08451,
+        lng: -4.66047
+    }, // Coffee 1
+    contents: `<h5 class = "marker-head">Coffee 1<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Coffee1.jpg"  alt = "Coffee 1">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.coffee1.co.uk/locations/cardigan/">www.coffee1.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.13494,
+        lng: -4.51636
+    }, // The Ship Inn
+    contents: `<h5 class = "marker-head">The Ship Inn<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Shipinn.jpg"  alt = "The Ship Inn">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://sabrainpubs.com/pubs-and-hotels/mid-west-wales/ceredigion/the-ship-inn">www.sabrainpubs.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08217,
+        lng: -4.66317
+    }, // Abduls Tandoori
+    contents: `<h5 class = "marker-head">Abduls Tandoori<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Abduls.jpg"  alt = "Abduls Tandoori">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.abdulstandoorispice.net/">www.abdulstandoorispice.net</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.08482,
+        lng: -4.65973
+    }, // The Copper Pot Restaurant
+    contents: `<h5 class = "marker-head">The Copper Pot Restaurant<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-restaurant/Cardigan-Copper.jpg"  alt = "The Copper Pot Restaurant">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://m.facebook.com/profile.php?id=100063623917484&_rdr">Copperpot Facebook</a> </div>
     `
     }];
     initMap(cardiganRestaurantLocations, "mapCardigan");
@@ -911,25 +1076,113 @@ document.getElementById("btn-cardigan-restaurants").addEventListener("click",() 
 document.getElementById("btn-cardigan-hotels").addEventListener("click",() => {
     let cardiganHotelLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+        lat: 52.11248,
+        lng: -4.68377
+    }, // The Cliff Hotel
+    contents: `<h5 class = "marker-head">The Cliff Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Cliff.jpg"  alt = "The Cliff Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.cliffhotel.com/">www.cliffhotel.com</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
-    contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/Ace-Skye.jpg"  alt = "Ace Skye Axe throwing">
+        lat: 52.09435,
+        lng: -4.63654
+    }, // Caemorgan Hotel
+    contents: `<h5 class = "marker-head">Caemorgan Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Caemorgan.jpg"  alt = "Caemorgan Hotel">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.caemorgan.com/">www.caemorgan.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.11248,
+        lng: -4.68377
+    }, // Gwbert Hotel
+    contents: `<h5 class = "marker-head">Gwbert Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Gwbert.jpg"  alt = "Gwbert Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://gwberthotel.com/">www.gwberthotel.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.03073,
+        lng: -4.55199
+    }, // The Nags Head Hotel
+    contents: `<h5 class = "marker-head">The Nags Head Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Nags.jpg"  alt = "The Nags Head Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://nagsheadabercych.co.uk/en/home/">www.nagsheadabercych.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.01684,
+        lng: -4.60563
+    }, // Top of the woods Camping
+    contents: `<h5 class = "marker-head">Top of the woods Camping<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Topwoods.jpg"  alt = "Top of the woods Camping">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.topofthewoods.co.uk/">www.topofthewoods.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.15906,
+        lng: -4.47118
+    }, // Pentre Arms Hotel
+    contents: `<h5 class = "marker-head">Pentre Arms Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Pentre.jpg"  alt = "Pentre Arms Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://pentrearms.co.uk/">www.pentrearms.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.01654,
+        lng: -4.83073
+    }, // The Golden Lion
+    contents: `<h5 class = "marker-head">The Golden Lion<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Golden.jpg"  alt = "The Golden Lion Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.goldenlionpembrokeshire.co.uk/">www.goldenlionpembrokeshire.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.01601,
+        lng: -4.83251
+    }, // Blas At Fronlas Hotel
+    contents: `<h5 class = "marker-head">Blas At Fronlas Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Blas.jpg"  alt = "Blas At Fronlas Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "http://blasatfronlas.com/">www.blasatfronlas.com</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.01766,
+        lng: -4.81314
+    }, // Pembrokeshire Holiday Park
+    contents: `<h5 class = "marker-head">Pembrokeshire Holiday Park<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Pembholidaypark.jpg"  alt = "Pembrokeshire Holiday Park">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://www.pembrokeshireholidaypark.co.uk/">www.pembrokeshireholidaypark.co.uk</a> </div>
+    `
+    },
+{    coord: {
+        lat: 52.06351,
+        lng: -4.60205
+    }, // Flambards Hotel
+    contents: `<h5 class = "marker-head">Flambards Hotel<span class = "marker-image">
+    <img src="assets/images/marker-images/cardigan-hotels/Cardigan-Flambards.jpg"  alt = "Flambards Hotel">
+    </span></h5>
+    <br>
+    <div class = "info-website">Website: <a target = "_blank" href = "https://flambardshotel.co.uk/">www.flambardshotel.co.uk</a> </div>
     `
     }];
     initMap(cardiganHotelLocations, "mapCardigan");
@@ -1017,25 +1270,25 @@ document.getElementById("btn-skye-activities").addEventListener("click",() => {
 document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
     let skyeRestaurantLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
+        lat: 0,
+        lng: 0
+    }, // tbc
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/BellaJaneActivity.jpg"  alt = "Bella Jane Boat Trips">
+    <img src="assets/images/marker-images/skye-restaurant/Skye-Ace.jpg"  alt = "tbc">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "tbc">tbc</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
+        lat: 0,
+        lng: 0
+    }, // tbc
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/marker-images/skye-activity/Skye-Ace.jpg"  alt = "Ace Skye Axe throwing">
+    <img src="assets/images/marker-images/skye-restaurant/Skye-Ace.jpg"  alt = "tbc">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "tbc">tbc</a> </div>
     `
     }];
     initMap(skyeRestaurantLocations, "mapSkye");
@@ -1047,25 +1300,25 @@ document.getElementById("btn-skye-restaurants").addEventListener("click",() => {
 document.getElementById("btn-skye-hotels").addEventListener("click",() => {
     let skyeHotelLocations = [{
     coord: {
-        lat: 57.1472,
-        lng: -6.1069
-    }, // Bella Jane
+        lat: 0,
+        lng: 0
+    }, // tbc
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/marker-images/skye-activity/Skye-BellaJane.jpg"  alt = "Bella Jane Boat Trips">
+    <img src="assets/images/marker-images/skye-hotels/Skye-BellaJane.jpg"  alt = "tbc">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "http://www.bellajane.co.uk/">www.bellajane.co.uk</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "tbc">tbc</a> </div>
     `
 },
 {    coord: {
-        lat: 57.4038,
-        lng: -6.2381
-    }, // A.C.E Target Sports
+        lat: 0,
+        lng: 0
+    }, // tbc
     contents: `<h5 class = "marker-head">TBC<span class = "marker-image">
-    <img src="assets/images/marker-images/skye-activity/Skye-Kayak.jpg"  alt = "Ace Skye Axe throwing">
+    <img src="assets/images/marker-images/skye-hotels/Skye-Kayak.jpg"  alt = "tbc">
     </span></h5>
     <br>
-    <div class = "info-website">Website: <a target = "_blank" href = "https://www.ace-skye.com/">www.ace-skye.com</a> </div>
+    <div class = "info-website">Website: <a target = "_blank" href = "tbc">tbc</a> </div>
     `
     }];
     initMap(skyeHotelLocations, "mapSkye");
