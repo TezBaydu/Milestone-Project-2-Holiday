@@ -290,6 +290,10 @@ body {
     font-family: "Dancing Script";
 }
 
+.card-head {
+    text-align: center;
+}
+
 .card-text {
     padding: 0 10%;
 }
