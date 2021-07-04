@@ -246,6 +246,39 @@ body {
     padding: 3% 20% 0;
     width: 80%;
     align-self: center;
+    display: none;
+}
+
+#brighton-card-body {
+    background-image: url(/assets/images/brighton-pier.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+#newquay-card-body {
+    background-image: url(/assets/images/newquay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+#cardigan-card-body {
+    background-image: url(/assets/images/cardigan-bay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+#skye-card-body {
+    background-image: url(/assets/images/scotland-skye-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+.card-body {
+    background-color:#bcc7aff2
 }
 
 .mb-4 {
