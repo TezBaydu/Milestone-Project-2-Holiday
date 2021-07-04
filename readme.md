@@ -453,11 +453,10 @@ Read more - to disappear when pressed and read less appears at bottom and vice v
 Contact message to be non-resizeable - Done Max-height
 Map to have buttons for places of interest and markers showing where these are. - Buttons applied / Markers done / info in markers to update - Done
 Contact auto response by email also required email JavaScript - Done with alert pop up too
+Below to show recommended places to see depending on buttons pressed. - Cards produced and styled / content and script Done
+Text links - done
 
 Figma updates to Tablet and mobile versions
-
-Below to show recommended places to see depending on buttons pressed. - Cards produced and styled / content and script needs updating
-Text links
 When clicking on Read less, to scroll back to initial (this) location for mobile version
 Investigate menu collapse so doesn't affect wider versions
 

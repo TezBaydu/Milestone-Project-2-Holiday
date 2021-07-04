@@ -15,7 +15,6 @@ $(".read_more_button").on("click", function () {
 });
 });
 
-
 // Nav to collapse on button link press for navbar toggler button only - to investgate as it affects web version too
 
 /* $(".nav-link").click(function () {
