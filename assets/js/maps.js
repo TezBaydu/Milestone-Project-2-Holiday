@@ -11,8 +11,21 @@ function initMap(markerLocations, locationPlace) {
             lat: 50.83,
             lng: -0.15
         },
-        zoom: 13
+        zoom: 13,
     });
+
+    // Change zoom level and remove UI on mobile screen
+
+    if (window.screen.width < 768) {
+        mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
+            center: {
+                lat: 50.83,
+                lng: -0.15
+            },
+            zoom: 12,
+            disableDefaultUI: true,
+        });
+    }
 
     mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
         center: {
@@ -22,6 +35,20 @@ function initMap(markerLocations, locationPlace) {
         zoom: 15
     });
 
+    // Change zoom level and remove UI on mobile screen
+
+    if (window.screen.width < 768) {
+        mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
+            center: {
+                lat: 50.4168,
+                lng: -5.09
+            },
+            zoom: 13,
+            disableDefaultUI: true,
+        });
+
+    }
+
     mapCardigan = new google.maps.Map(document.getElementById("map-cardigan"), {
         center: {
             lat: 52.22,
@@ -29,6 +56,21 @@ function initMap(markerLocations, locationPlace) {
         },
         zoom: 9
     });
+
+    // Change zoom level and remove UI on mobile screen
+
+    if (window.screen.width < 768) {
+        mapCardigan = new google.maps.Map(document.getElementById("map-cardigan"), {
+            center: {
+                lat: 52.12,
+                lng: -4.61488
+            },
+            zoom: 10,
+            disableDefaultUI: true,
+        });
+
+    }
+
 
     mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
         center: {
@@ -38,6 +80,20 @@ function initMap(markerLocations, locationPlace) {
         zoom: 9
         /* disableDefaultUI: true */
     });
+
+    // Change zoom level and remove UI on mobile screen
+
+    if (window.screen.width < 768) {
+        mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
+            center: {
+                lat: 57.41,
+                lng: -6.32
+            },
+            zoom: 9,
+            disableDefaultUI: true,
+        });
+
+    }
 
 
     // Object //
