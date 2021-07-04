@@ -31,4 +31,6 @@
     * JQuery code written but affected menu also for wider versions
         *To investigate
 
+- 2. Alignment to left? 
+    * picture tile margin too mush, reduced and alignment works ok now.
 

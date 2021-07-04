@@ -466,7 +466,4 @@ Investigate menu collapse so doesn't affect wider versions
 
 Mentor questions:
 
-1. Read more - This is static positioned...is this ok?
-2. Alignment to left, why?
-3. JavaScript requirements?
-4. Contact email post, to own email? how?
+
