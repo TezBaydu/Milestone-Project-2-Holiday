@@ -203,14 +203,14 @@ Hierarchical structure design for simpler user navigation:
 
 - Designed in [Figma]()
 
-- Home section
-![Home section wireframes on all devices]()
+- Desktop version
+![Desktop wireframe](assets/readme-files/wireframe-images/wireframe-desktop.jpg)
 
-- Location section
-![Location section wireframes on all devices]()
+- Tablet version
+![Tablet wireframe](assets/readme-files/wireframe-images/wireframe-tablet.jpg)
 
-- Contact section
-![Contact section wireframes on all devices]()
+- Mobile version
+![Mobile wireframe](assets/readme-files/wireframe-images/wireframe-mobile.jpg)
 
 
 
