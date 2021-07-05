@@ -58,6 +58,15 @@
     background-color: #e6ebe0ab;
     border: 0px;
     transition: background-color .5s ease 0s;
+    opacity: 0;
+}
+
+.navbar-fade:hover {
+    background-color: #e6ebe0ab;
+    border: 0px;
+    transition: background-color .5s ease 0s;
+    opacity: 100%;
+
 }
 
 .navbar-collapse {
