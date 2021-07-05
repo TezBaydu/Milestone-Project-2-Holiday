@@ -446,6 +446,7 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 To update:
 Site isn't 100% width especially in mobile version - Pic tiles adjustment required - done
+Figma updates to Tablet and mobile versions - Done
 Adjust designs to version 1 (one place per view) to allow for more map space and interactivity - done
 Intro 2 - too much white space- potential border, image or reduce margin top and bottom - done - margins reduced by updating flex height on pic-tiles
 Back to top button - done
@@ -455,14 +456,15 @@ Map to have buttons for places of interest and markers showing where these are. 
 Contact auto response by email also required email JavaScript - Done with alert pop up too
 Below to show recommended places to see depending on buttons pressed. - Cards produced and styled / content and script Done
 Text links - done
-
-Figma updates to Tablet and mobile versions
-When clicking on Read less, to scroll back to initial (this) location for mobile version
-Investigate menu collapse so doesn't affect wider versions
+Investigate menu collapse so doesn't affect wider versions - Done Opacity to 0 on CSS
 
 
+ReadMe sheet to update
+Testing
 
 
 Mentor questions:
+When clicking on Read less, to scroll back to initial (this) location for mobile version - potentially not needed?
+All points completed
 
 
