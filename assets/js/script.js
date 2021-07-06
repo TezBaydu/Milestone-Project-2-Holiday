@@ -9,7 +9,7 @@
 $(document).ready(function () {
 $(".card-text").hide();
 $(".read_more_button").on("click", function () {
-    var txt = $(".card-text").is(':visible') ? 'Read more' : 'Read less';
+    var txt = $(".card-text").is(':visible') ? 'Read more....' : 'Read less';
     $(".read_more_button").text(txt);
     $(this).siblings('.card-text').slideToggle(200);
 });
@@ -32,6 +32,8 @@ $(".read_more_button").on("click", function () {
 }); 
 
 
+
+
 // Floating scroll to top button
 
 let btn = $('#buttonFloat');
@@ -49,7 +51,5 @@ btn.on('click', function(top) {
   $('html, body').animate({scrollTop:0}, '600');
 });
 
-
-
-
+// Card body text align removal on click
 

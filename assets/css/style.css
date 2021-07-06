@@ -14,7 +14,7 @@
 }
 
 .nav-item {
-    font-size: xx-large;
+    font-size: 23px;
     padding-right: 30px;
     
 }
@@ -24,7 +24,7 @@
 }
 
 .navbar-brand {
-    font-size: 60px;
+    font-size: 40px;
     padding-left: 40px;
     padding-bottom: -20px;
     color: #1f5673;
@@ -46,23 +46,28 @@
     color: #36c9c6;
 }
 
+.active {
+    color: #36c9c6;
+}
+
 .row {
     --bs-gutter-x: 0;
 }
 
 #nav-staycation-britain {
     font-size: 24px;
+    font-family: "Dancing Script";
 }
 
 .navbar-fade {
-    background-color: #e6ebe0ab;
+    background-color: #e6ebe0f1;
     border: 0px;
     transition: background-color .5s ease 0s;
     opacity: 0;
 }
 
 .navbar-fade:hover {
-    background-color: #e6ebe0ab;
+    background-color: #e6ebe0f1;
     border: 0px;
     transition: background-color .5s ease 0s;
     opacity: 100%;
@@ -74,18 +79,22 @@
 }
 
 @media (max-width: 767px) {
+    .navbar {
+        border-radius: 0 0 10px 10px;
+    }
+
     #suitcase {
         height: 60px;
     }
 
     .nav-item {
-        font-size: large;
+        font-size: 18px;
         padding-right: 0;
     }
 
     .navbar-brand {
         padding-left: 20px;
-        font-size: 40px;
+        font-size: 25px;
     }
 
     #nav-staycation-britain {
@@ -193,6 +202,7 @@ body {
     padding-top: 30px;
     font-size: 48px;
     font-style: italic;
+    font-family: "Dancing Script";
 }
 
 .intro {
@@ -282,6 +292,7 @@ body {
 
 .card-body {
     background-color:#bcc7afe3;
+    text-align: center;
 }
 
 .mb-4 {
@@ -290,7 +301,6 @@ body {
 
 .read_more_button {
     cursor: pointer;
-    margin-left: 45%;
 }
 
 .card-title {
@@ -301,6 +311,8 @@ body {
 
 .card-head {
     text-align: center;
+    font-family: 'Dancing Script';
+    font-weight: bold;
 }
 
 .card-text {
@@ -378,6 +390,7 @@ img, svg {
 
 .int-head {
     text-align: center;
+    font-family: 'Dancing Script';
 }
 
 .flex-column {
@@ -443,6 +456,7 @@ img, svg {
 
 #contact {
     padding-top: 10px;
+    font-family: "Dancing Script";
 }
 
 .contact-desc {
@@ -462,7 +476,8 @@ form {
 
 .message-area {
     margin-bottom: 20px;
-    max-height: 70px;
+    height: 200px;
+    resize: none;
 }
 
 .bd-example {
@@ -470,16 +485,18 @@ form {
 }
 
 .btn-outline-info {
-    color: #1F5673;
-    border-color: #1F5673;
-    background-color: #fff;
+    color: #fff;
+    border-color: #fff;
+    background-color: #1F5673;
     margin-bottom: 2%;
+    border-width: 3px;
+    border-style: outset;
 
 }
 
 .btn-outline-info:hover {
-    color: #fff;
-    background-color: #1F5673;
+    color: #1F5673;
+    background-color: #fff;
 
 }
 
