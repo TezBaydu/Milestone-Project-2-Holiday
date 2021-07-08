@@ -1,9 +1,3 @@
-// Read more button in card texts
-
-/* $(".read_more_button").click(function () {
-    $(this).siblings(".card-text-collapsed").toggle("slow");
-}); */
-
 // Read more read less text is replaced
 
 $(document).ready(function () {
@@ -15,23 +9,52 @@ $(".read_more_button").on("click", function () {
 });
 });
 
-// Nav to collapse on button link press for navbar toggler button only - to investgate as it affects web version too
-
-/* $(".nav-link").click(function () {
-    $(".navbar-toggler").click();
-}); */
-
 // navbar fades - just a nice to have play with how you can make an element fade on scroll
 
- $(window).scroll(function () {
-    if ($(this).scrollTop() > 150) {
-        $(".navbar").addClass("navbar-fade");
-    } else {
-        $(".navbar").removeClass("navbar-fade");
+
+
+// Nav to collapse on scroll down and appear on scroll up
+
+// Hide nav on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('nav').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
     }
-}); 
+}, 250);
 
-
+function hasScrolled() {
+    var scrollTop = $(this).scrollTop();
+  
+    console.log($(this));
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - scrollTop) <= delta)
+        return;
+    
+    // If scrolled down passed navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (scrollTop > lastScrollTop && scrollTop > navbarHeight){
+        // Scroll Down
+        $('nav').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(scrollTop + $(window).height() < $(document).height()) {
+            $('nav').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = scrollTop;
+}
 
 
 // Floating scroll to top button
