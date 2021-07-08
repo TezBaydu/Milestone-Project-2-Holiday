@@ -9,10 +9,6 @@ $(".read_more_button").on("click", function () {
 });
 });
 
-// navbar fades - just a nice to have play with how you can make an element fade on scroll
-
-
-
 // Nav to collapse on scroll down and appear on scroll up
 
 // Hide nav on on scroll down
@@ -30,7 +26,7 @@ setInterval(function() {
         hasScrolled();
         didScroll = false;
     }
-}, 250);
+}, 400);
 
 function hasScrolled() {
     var scrollTop = $(this).scrollTop();
@@ -74,5 +70,23 @@ btn.on('click', function(top) {
   $('html, body').animate({scrollTop:0}, '600');
 });
 
-// Card body text align removal on click
+// Navbar links to highlight when at appropriate location
 
+$(window).on('scroll', function () {
+   var sections = $('section')
+    , nav = $('nav')
+    , nav_height = nav.outerHeight()
+    , cur_pos = $(this).scrollTop();
+    sections.each(function() {
+    var top = $(this).offset().top - nav_height,
+        bottom = top + $(this).outerHeight();
+ 
+    if (cur_pos >= top && cur_pos <= bottom) {
+      nav.find('.navbar-nav li a').removeClass('active');
+      sections.removeClass('active');
+ 
+      $(this).addClass('active');
+      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+    }
+  });
+});
