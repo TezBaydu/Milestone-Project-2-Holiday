@@ -163,7 +163,7 @@ a {
     max-width: none;
     background-size: cover;
     width: 100%;
-    height: 550px;
+    height: 680px;
     margin-top: -20px;
     background-position: bottom;
 }
@@ -263,28 +263,28 @@ body {
 }
 
 #brighton-card-body {
-    background-image: url(/assets/images/brighton-pier.jpg);
+    background-image: url(../images/brighton-pier.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
 }
 
 #newquay-card-body {
-    background-image: url(/assets/images/newquay.jpg);
+    background-image: url(../assets/images/newquay.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
 }
 
 #cardigan-card-body {
-    background-image: url(/assets/images/cardigan-bay.jpg);
+    background-image: url(../assets/images/cardigan-bay.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
 }
 
 #skye-card-body {
-    background-image: url(/assets/images/scotland-skye-3.jpg);
+    background-image: url(../assets/images/scotland-skye-3.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
@@ -516,7 +516,7 @@ form {
 }
 
 #background-teddy {
-    background-image: url(/assets/images/luggage-teddy.jpg);
+    background-image: url(../assets/images/luggage-teddy.jpg);
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
@@ -581,10 +581,6 @@ form {
 }
 
 @media (min-width: 1199px) {
-    #hero {
-        background-image: url(/assets/images/shellfish-beach-wide-2.jpg)
-    }
-
     .flex {
         height: 650px;
     }
