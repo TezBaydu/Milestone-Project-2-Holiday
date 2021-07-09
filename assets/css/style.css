@@ -158,7 +158,7 @@ a {
 /*--- Hero image --- */
 
 #hero {
-    background-image: url("assets/images/shellfish-beach-wide-crop.jpg");
+    background-image: url(../images/shellfish-beach-wide-crop.jpg);
     background-attachment: fixed;
     max-width: none;
     background-size: cover;
