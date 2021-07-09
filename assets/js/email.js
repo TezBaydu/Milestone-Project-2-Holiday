@@ -1,4 +1,4 @@
-// console.log("EmailHello")
+// emailJS contact form handling
 
 function sendMail(contactForm) {
     emailjs.send("service_8tumlwn", "template_5ad99dg", {
@@ -16,14 +16,3 @@ function sendMail(contactForm) {
     );
     return false;
 }
-
-// contact form handling
-
-/* function handleSubmit(event) {
-    event.preventDefault();
-    //
-    contactForm.submit();
-}
-
-let contactForm = document.getElementById("contact-form");
-contactForm.addEventListener("submit", handleSubmit); */

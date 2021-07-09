@@ -3,8 +3,6 @@ let mapNewquay;
 let mapCardigan;
 let mapSkye;
 
-
-
 function initMap(markerLocations, locationPlace) {
     mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
         center: {
@@ -14,7 +12,7 @@ function initMap(markerLocations, locationPlace) {
         zoom: 13,
     });
 
-    // Change zoom level and remove UI on mobile screen
+    // Change zoom level and remove UI on screen less than 768px
 
     if (window.screen.width < 768) {
         mapBrighton = new google.maps.Map(document.getElementById("map-brighton"), {
@@ -27,6 +25,8 @@ function initMap(markerLocations, locationPlace) {
         });
     }
 
+    // 
+
     mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
         center: {
             lat: 50.4168,
@@ -35,7 +35,7 @@ function initMap(markerLocations, locationPlace) {
         zoom: 15
     });
 
-    // Change zoom level and remove UI on mobile screen
+    // Change zoom level and remove UI on screen less than 768px
 
     if (window.screen.width < 768) {
         mapNewquay = new google.maps.Map(document.getElementById("map-newquay"), {
@@ -57,7 +57,7 @@ function initMap(markerLocations, locationPlace) {
         zoom: 9
     });
 
-    // Change zoom level and remove UI on mobile screen
+    // Change zoom level and remove UI on screen less than 768px
 
     if (window.screen.width < 768) {
         mapCardigan = new google.maps.Map(document.getElementById("map-cardigan"), {
@@ -81,7 +81,7 @@ function initMap(markerLocations, locationPlace) {
         /* disableDefaultUI: true */
     });
 
-    // Change zoom level and remove UI on mobile screen
+    // Change zoom level and remove UI on screen less than 768px
 
     if (window.screen.width < 768) {
         mapSkye = new google.maps.Map(document.getElementById("map-skye"), {
@@ -103,8 +103,6 @@ function initMap(markerLocations, locationPlace) {
         mapCardigan,
         mapBrighton
     }
-
-    // console.log(maps[locationPlace])
 
     // Placeholder for pointer locations
     if (markerLocations) {
@@ -527,7 +525,7 @@ document.getElementById("btn-brighton-hotels").addEventListener("click", () => {
 
 // Functions to display cards
 
-// Brighton disply cards
+// Brighton display cards
 
 function brightonActivities() {
     clearBrightonCards();
@@ -1662,8 +1660,7 @@ document.getElementById("btn-skye-hotels").addEventListener("click", () => {
     <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://perlehotels.com/marmalade/">www.perlehotels.com/marmalade</a> </div>
     `
-        }
-        ,
+        },
         {
             coord: {
                 lat: 57.41613,
@@ -1759,7 +1756,8 @@ document.getElementById("btn-skye-hotels").addEventListener("click", () => {
     <br>
     <div class = "info-website">Website: <a target = "_blank" href = "https://tongadale-hotel-skye.co.uk/">www.tongadale-hotel-skye.co.uk</a> </div>
     `
-        }];
+        }
+    ];
     initMap(skyeHotelLocations, "mapSkye");
     skyeHotels();
 });

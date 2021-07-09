@@ -37,3 +37,6 @@
 - Nav Links to highlight at associated locations
     * Javascipt updated to highlight as particular sections of page with the help of giving id's to menu links.
 
+- Project published, fixed images missing
+    * style.css images have a'/' and think this is to be removed - Test after push
+
