@@ -270,21 +270,21 @@ body {
 }
 
 #newquay-card-body {
-    background-image: url(../assets/images/newquay.jpg);
+    background-image: url(../images/newquay.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
 }
 
 #cardigan-card-body {
-    background-image: url(../assets/images/cardigan-bay.jpg);
+    background-image: url(../images/cardigan-bay.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
 }
 
 #skye-card-body {
-    background-image: url(../assets/images/scotland-skye-3.jpg);
+    background-image: url(../images/scotland-skye-3.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
@@ -516,7 +516,7 @@ form {
 }
 
 #background-teddy {
-    background-image: url(../assets/images/luggage-teddy.jpg);
+    background-image: url(../images/luggage-teddy.jpg);
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
