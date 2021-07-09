@@ -29,8 +29,11 @@
 
 - Nav bar to collapse when link is pressed for toggler width versions only.
     * JQuery code written but affected menu also for wider versions
-        *To investigate
+        *Updated so when scrolling down Nav Bar collapses and scroll up navbar appears
 
 - 2. Alignment to left? 
     * picture tile margin too mush, reduced and alignment works ok now.
+
+- Nav Links to highlight at associated locations
+    * Javascipt updated to highlight as particular sections of page with the help of giving id's to menu links.
 

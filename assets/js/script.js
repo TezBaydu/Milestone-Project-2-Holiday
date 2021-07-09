@@ -72,21 +72,25 @@ btn.on('click', function(top) {
 
 // Navbar links to highlight when at appropriate location
 
-$(window).on('scroll', function () {
-   var sections = $('section')
-    , nav = $('nav')
-    , nav_height = nav.outerHeight()
-    , cur_pos = $(this).scrollTop();
-    sections.each(function() {
-    var top = $(this).offset().top - nav_height,
-        bottom = top + $(this).outerHeight();
+var menu1 = $('#home').offset().top-380;//section height + nabvar height + main div padding (Optional)
+var menu2 = $('#locations').offset().top-100;//section height + nabvar height + main div padding (Optional)
+var menu3 = $('#contact-container').offset().top-400;//section height + nabvar height + main div padding (Optional)
+
  
-    if (cur_pos >= top && cur_pos <= bottom) {
-      nav.find('.navbar-nav li a').removeClass('active');
-      sections.removeClass('active');
- 
-      $(this).addClass('active');
-      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
-    }
-  });
+$(window).scroll(function(){
+var _wscoll = $(window).scrollTop();
+console.log(_wscoll+' '+menu1);
+if ( _wscoll >= menu1 && _wscoll < menu2 ) {
+$('#link1').addClass('active');
+$('#link2, #link3').removeClass('active');
+} else if ( _wscoll >= menu2 && _wscoll < menu3 ){
+$('#link2').addClass('active');
+$('#link1, #link3').removeClass('active');
+} else if ( _wscoll >= menu2 && _wscoll > menu3){
+  $('#link3').addClass('active');
+  $('#link1, #link2').removeClass('active');
+  }
+ else {
+$('#link1, #link2, #link3').removeClass('active');
+}
 });
