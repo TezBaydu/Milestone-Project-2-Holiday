@@ -6,11 +6,17 @@
 .navbar {
     border-radius: 0 0 30px 30px;
     background-color: #e6ebe0;
+    align-items: flex-end;
 }
 
 .navbar-nav {
     place-content: space-around;
     flex-direction: row;
+    align-items: flex-end;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
 }
 
 .nav-item {
@@ -82,13 +88,17 @@
         border-radius: 0 0 10px 10px;
     }
 
+    .navbar-nav {
+        margin-left: -70px;
+    }
+
     #suitcase {
         height: 60px;
     }
 
     .nav-item {
-        font-size: 18px;
-        padding-right: 0;
+        font-size: 14px;
+        padding-right: 20px;
     }
 
     .navbar-brand {
@@ -97,11 +107,15 @@
     }
 
     #nav-staycation-britain {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .navbar-toggler {
         margin-right: 20px;
+    }
+
+    #link1 {
+        display: none;
     }
 }
 

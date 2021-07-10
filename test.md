@@ -45,3 +45,6 @@
 
 - Contact background Teddy as landscape not looking good on less than desktop versions and having to use contain
     * Changed to beach people and looks much better as is a larger spacious image with smaller elements
+
+- Navbar toggler button for mobile versions making navigation confusing
+    * As there are only 3 selections, toggler button removed and sizes adjusted. removed Home button for Mobile as this is selectable by pressing Staycation Britain logo.
