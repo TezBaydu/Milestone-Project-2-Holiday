@@ -40,3 +40,5 @@
 - Project published, fixed images missing
     * style.css images have to be relative '..' replaced '/assets' in url.
 
+- Read More Read Less buttons text updating all buttons when pressed.
+    * Adjusted JavaScript identifying the Card-text and Read more buttons identified by the Div ID and duplicated for each location

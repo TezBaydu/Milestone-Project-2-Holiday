@@ -1,11 +1,42 @@
 // Read more, Read less text is replaced
 
+// Brighton card Read more, read Less function
 $(document).ready(function () {
-  $(".card-text").hide();
-  $(".read_more_button").on("click", function () {
-    var txt = $(".card-text").is(':visible') ? 'Read more....' : 'Read less';
-    $(".read_more_button").text(txt);
-    $(this).siblings('.card-text').slideToggle(300);
+  $("#brighton-card-body .card-text").hide();
+  $("#brighton-card-body .read_more_button").on("click", function () {
+    var txt = $("#brighton-card-body .card-text").is(':visible') ? 'Read more....' : 'Read less';
+    $("#brighton-card-body .read_more_button").text(txt);
+    $(this).siblings('#brighton-card-body .card-text').slideToggle(300);
+  });
+});
+
+// Newquay card Read more, read Less function
+$(document).ready(function () {
+  $("#newquay-card-body .card-text").hide();
+  $("#newquay-card-body .read_more_button").on("click", function () {
+    var txt = $("#newquay-card-body .card-text").is(':visible') ? 'Read more....' : 'Read less';
+    $("#newquay-card-body .read_more_button").text(txt);
+    $(this).siblings('#newquay-card-body .card-text').slideToggle(300);
+  });
+});
+
+// Cardigan card Read more, read Less function
+$(document).ready(function () {
+  $("#cardigan-card-body .card-text").hide();
+  $("#cardigan-card-body .read_more_button").on("click", function () {
+    var txt = $("#cardigan-card-body .card-text").is(':visible') ? 'Read more....' : 'Read less';
+    $("#cardigan-card-body .read_more_button").text(txt);
+    $(this).siblings('#cardigan-card-body .card-text').slideToggle(300);
+  });
+});
+
+// Skye card Read more, read Less function
+$(document).ready(function () {
+  $("#skye-card-body .card-text").hide();
+  $("#skye-card-body .read_more_button").on("click", function () {
+    var txt = $("#skye-card-body .card-text").is(':visible') ? 'Read more....' : 'Read less';
+    $("#skye-card-body .read_more_button").text(txt);
+    $(this).siblings('#skye-card-body .card-text').slideToggle(300);
   });
 });
 
