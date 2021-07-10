@@ -515,9 +515,9 @@ form {
 
 }
 
-#background-teddy {
-    background-image: url(../images/luggage-teddy.jpg);
-    background-size: contain;
+#background-contact {
+    background-image: url(../images/beach-people.jpg);
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }

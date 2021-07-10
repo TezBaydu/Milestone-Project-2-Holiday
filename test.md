@@ -42,3 +42,6 @@
 
 - Read More Read Less buttons text updating all buttons when pressed.
     * Adjusted JavaScript identifying the Card-text and Read more buttons identified by the Div ID and duplicated for each location
+
+- Contact background Teddy as landscape not looking good on less than desktop versions and having to use contain
+    * Changed to beach people and looks much better as is a larger spacious image with smaller elements
