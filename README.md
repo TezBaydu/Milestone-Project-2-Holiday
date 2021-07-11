@@ -1,12 +1,23 @@
-# Project Staycation Britain
+<h1 align="center" id = "introduction">
+     <a href="https://tezbaydu.github.io/Milestone-Project-2-Holiday" target="_blank"><img src="assets/readme-files/staycationHero.JPG" alt="Blank!"/></a>
+     Project Staycation Britain
+</h1>
 
-![Staycation Britain device image](assets/images/)
+<h2 align="center">
+    <a href="https://tezbaydu.github.io/Milestone-Project-2-Holiday"target="_blank">Staycation Britain Website</a>
+</h2>
 
-[Staycation Britain website](website address when pushed)
+<div>
+*Staycation Britain* is a website to highlight a few recommended areas in Britain to stay.
+<br>
+The idea has come about due to pandemic restrictions of overseas holidays and to highlight places of interest in Britain.
+
+This is the second project of a four module Full Stack Developer course provided by the [Code Institute](https://codeinstitute.net/).
+Main requirements are to show understanding of JavaScript and JQuery by developing an Interactive Front End website.
+</div>
 
 ## Contents
-1. [Introduction](#Introduction)
-2. [UX](#UX)
+1. [UX](#UX)
     - [Aims](#Aims)
     - [Demographic](#Demographic-both-current-and-potential)
     - [User Stories](#User-stories)
@@ -24,14 +35,14 @@
             - [Pages](#Page-sections)
             - [Structure](#Structure)
     - [Wireframe](#Wireframe)
-3. [Features](#Features)
+2. [Features](#Features)
     - [Consistency](#Consistency)
     - [Home](#Home-section)
     - [Locations](#Location-sesction)
     - [Contact](#Contact-section)
-4. [Technologies Used](#Technologies-Used)
-5. [Bugs and Issues](#Bugs-and-Issues)
-6. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
+3. [Technologies Used](#Technologies-Used)
+4. [Bugs and Issues](#Bugs-and-Issues)
+5. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
     - [Commits](#Commits)
     - [Code testing](#Code-testing)
     - [Element testing](#Element-testing)
@@ -39,24 +50,14 @@
     - [Colour blindness Testing](#Colour-blindness-testing)
     - [Browser testing](#Browser-testing)
     - [User testing](#User-testing)
-7. [Deployment](#Deployment)
+6. [Deployment](#Deployment)
     - [Gitpod commits](#Gitpod-to-GitHub-commits)
     - [GitHub Pages Deployment](#Deploying-via-GitHub-Pages)
     - [Forking](#Forking-repository)
     - [Cloning](#Cloning-a-repository)
-8. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
+7. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
 
 ***
-
-## Introduction
-
-*Staycation Britain* is a website to highlight a few recommended areas in Britain to stay.
-The idea has come about due to pandemic restrictions of overseas holidays and to highlight places of interest in Britain.
-
-This is the second project of a 4 module Full Stack Developer course provided by the [Code Institute](https://codeinstitute.net/).
-Main requirements are to show understanding of JavaScript and JQuery by developing an Interactive Front End website.
-
-[Back to top ⇧](#Project-Staycation-Britain)
 
 ## UX
 
@@ -96,12 +97,12 @@ This user is looking for imagery or influence for another project.
 4. Be able to make contact with Developer.
 5. Have an opportunity to clone site if wanting to use content.
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ### Development Plan
 Development decisions came from wanting to design a more formal site to diversify skillset.
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 #### Strategy
 Identifying target audience.
@@ -144,26 +145,29 @@ Below are areas considered for levels of importance and viability
 1. High
     * Online presence.
     * Imagery.
+    *Interactivity.
     * Contact portal.
     * Map.
     * Links to places of interest.
 2. Medium
-    * Sales booking section.
+    * Search function
 3. Low
-    * --
+    * Sales booking section
 
 <u>Viability</u>
 1. High
     * Online presence.
     * Imagery.
     * Links to associated sites.
+    * Interactivity.
 2. Medium
-    * Contact portal
+    * Contact portal.
     * Interactive map.
 3. Low
     * Sales
+    * Search function.
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ### Design and Scope
 
@@ -186,7 +190,7 @@ Below are areas considered for levels of importance and viability
 2. Location
 3. Contact
 *  Potential pages to develop
-    1. --
+    1. Booking section with recommended sites via reputable booking agency.
 
 
 #### Structure
@@ -195,13 +199,13 @@ Hierarchical structure design for simpler user navigation:
 
 ![Staycation Britain Site Structure](assets/readme-files/Staycation-Britain-site-structure.JPG)
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 
 
 ### Wireframe
 
-- Designed in [Figma]()
+- Designed in [Figma](https://www.figma.com/file/fyBG54zRwgw4zW7ImEShVi/Project-2?node-id=0%3A1)
 
 - Desktop version
 ![Desktop wireframe](assets/readme-files/wireframe-images/wireframe-desktop.jpg)
@@ -214,7 +218,7 @@ Hierarchical structure design for simpler user navigation:
 
 
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Features
 This project has three main sections all in one page but is locatable by clicking relevant name in a menu bar.
@@ -224,9 +228,10 @@ This project has three main sections all in one page but is locatable by clickin
 
 - Design with menu placing in the same position at top.
     * A logo which leads the user back to 'Home' when clicked.
-    * Mobile version to be a dropdown menu.
+    * To collapse on scrolldown and appear on scroll up to allow better user readability.
+    * Menu links to highloght at appropriate sections to allow user to know which section they are currently at.
 
-- Footer with links to social media and download options.
+- Footer with links to social media.
 
 - Consistent font:
     * Source Serif Pro
@@ -258,27 +263,38 @@ This project has three main sections all in one page but is locatable by clickin
     - Site description
 
 ### Location section
-1. Collapsable cards of each recommended places
+1. Collapsable cards of each recommended place.
 
 #### Card Collapse
 1. Location image.
-2. Five lines of description.
-3. Read more link to open card.
+2. Location description.
+3. Read more button to open card and Read less to collapse card.
 
 #### Card Expanded
 1. Location image.
 2. Full text explanded.
 3. Links to point of interest and relevance in text.
-4. Google Map of associated location.
-5. Recommended point of interest markers
+
+### Card Map
+1. Google Map of associated location.
+2. Recommended point of interest markers with images and links to sites.
+
+### Card Interest buttons
+1. Buttons of Activities, Restaurants and Hotels.
+
+#### Card Interests
+1. Buttons activate three interest recommendations depending on selection.
+2. Interest recommendation cards show larger images and links to associated sites.
 
 ### Contact section
 1. Description of why to contact
 2. Contact fields
+3. Associated to EmailJS
+4. Email to Developer and User Auto Reply with appropriate message and link to site.
 
 
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Technologies Used
 
@@ -289,6 +305,7 @@ This project has three main sections all in one page but is locatable by clickin
     * Code used to style content
 
 - Javascript
+    * Code used to provide more interactive attributes
 
 - [JQuery](https://code.jquery.com/)
 
@@ -332,11 +349,11 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [Eye Dropper extension]
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Bugs and Issues
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Testing 
 -   ### View [Test.md file](
@@ -373,7 +390,7 @@ This project has three main sections all in one page but is locatable by clickin
 
 - Friends & Family testing
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Deployment
 
@@ -436,12 +453,12 @@ Steps to Clone a repository
 
 For further help and info you can select [Cloning and Forking repositories](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 ## Credits and Acknowledgements
 
 
-[Back to top ⇧](#Project-Staycation-Britain)
+[Back to top ⇧](#introduction)
 
 
 To update:
