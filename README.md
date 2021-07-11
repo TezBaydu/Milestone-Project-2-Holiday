@@ -57,7 +57,7 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
     - [Cloning](#Cloning-a-repository)
 7. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
 
-***
+![Responsiveness](assets/readme-files/responsive-image.JPG)
 
 ## UX
 
