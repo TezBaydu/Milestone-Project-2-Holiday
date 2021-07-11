@@ -42,7 +42,7 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
     - [Contact](#Contact-section)
 3. [Technologies Used](#Technologies-Used)
 4. [Bugs and Issues](#Bugs-and-Issues)
-5. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
+5. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/TEST.md)
     - [Commits](#Commits)
     - [Code testing](#Code-testing)
     - [Element testing](#Element-testing)
