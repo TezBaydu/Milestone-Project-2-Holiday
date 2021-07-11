@@ -203,9 +203,17 @@ a {
 
 /*--- Body --*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Source Serif pro", "Dancing Script", Arial, sans-serif;
     color: #463730;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*--- Introduction section ---*/
@@ -593,11 +601,6 @@ form {
 .list-inline-item {
     display: inline-flex;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-  }
 
 @media (min-width: 1199px) {
     .flex {
