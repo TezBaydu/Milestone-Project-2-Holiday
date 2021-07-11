@@ -83,20 +83,20 @@ This user is looking for imagery or influence for another project.
     - Test date 11/07/2021
         - HTML5 Home page test
             * Test 1
-        - ![HTML5 test1](assets/test-files/code-test/htmltest-1.JPG)
+        - ![HTML5 test1](assets/test-files/code-files/htmltest-1.JPG)
             * Adjustments:
                 * Move script to within Body
                 * Adjust Nody so Footer sticks to bottom
                 * Close "a" tag so no "a" tag is placed within another
             * Test 2 post adjustments
-        - ![HTML5 test2](assets/test-files/code-test/htmltest-2.JPG)
+        - ![HTML5 test2](assets/test-files/code-files/htmltest-2.JPG)
 
 ### CSS3
 - [CSS code checker](https://jigsaw.w3.org/css-validator/)
     - Test date 11/07/2021
         - CSS3 code test
-            - ![CSS3 code test](assets/test-files/code-test/css-1.JPG)
-            - ![CSS3 code test](assets/test-files/code-test/css-2.JPG)
+            - ![CSS3 code test](assets/test-files/code-files/css-1.JPG)
+            - ![CSS3 code test](assets/test-files/code-files/css-2.JPG)
         - Bootstrap errors not sirectly code related
 
                 
@@ -120,7 +120,17 @@ This user is looking for imagery or influence for another project.
 
 [Back to top ⇧](#top)
 
-
+## Element testing
+### Navigation bar
+Test responsive hover on menu and links work.
+![Navbar test](assets/test-files/element-test/navbar-test.gif)
+### Footer
+### Home section
+### Locations section
+#### Read More
+#### Map Markers
+#### Interest Cards
+### Contact section
 
 
 
