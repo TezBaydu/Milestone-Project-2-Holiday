@@ -594,6 +594,11 @@ form {
     display: inline-flex;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 @media (min-width: 1199px) {
     .flex {
         height: 650px;
