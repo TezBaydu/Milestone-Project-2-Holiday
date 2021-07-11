@@ -102,7 +102,7 @@ function initMap(markerLocations, locationPlace) {
         mapNewquay,
         mapCardigan,
         mapBrighton
-    }
+    };
 
     // Placeholder for pointer locations
     if (markerLocations) {
