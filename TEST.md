@@ -1,3 +1,129 @@
+<h1 align ="center" id = "top">Project Staycation Britain Test file
+<h1>
+
+<h2 align="center">
+    <a href="https://tezbaydu.github.io/Milestone-Project-2-Holiday" target="_blank">Staycation Britain Website</a>
+</h2>
+
+<h3 align="center">
+    <a href="https://github.com/TezBaydu/Milestone-Project-2-Holiday#README" target="_blank">Back to README file</a>
+</h3>
+
+## Contents
+1. [Commits](#Commits)
+2. [User Story testing](#User-Story-testing)
+    - [British Travellers](#British-Travellers)
+    - [Web Developer](#Web-Developer)
+3. [Code testing](#Code-testing)
+    - [HTML5](#HTML5)
+    - [CSS3](#CSS3)
+    - [JavaScript](#JavaScript)
+4. [Element testing](#Element-testing)
+    - [Navigation bar](#Navigation-bar)
+    - [Footer](#Footer)
+    - [Home section](#Home-section)
+    - [Locations section](#Locations-section)
+    - [Contact section](#Contact-section)
+5. [Device testing](#Device-testing)
+    - [Responsiveness](#Responsiveness)
+6. [Colour blindness testing](#Colour-blindness-testing)
+    - [Protanopia](#Protanopia)
+    - [Deuteranopia](#Deuteranopia)
+7. [Browser testing](#Browser-testing)
+8. [User testing](#User-testing)
+
+## Commits
+- Over 110 commits
+- Commits made in as many instances as possible
+
+[Back to top ⇧](#top)
+
+## User Story testing
+
+### British Travellers
+The user is currently in Britain and not wanting to book any trips abroad.
+
+* This user wants to:
+1. Be able to navigate through the website easily.
+    - Fixed top Nav bar showing sections to navigate to.
+    - Fixed site logo on top left of nav bar for user to navigate to home section.
+2. Understand what site is providing (at this stage).
+    - Synopsis on Home section.
+3. To be able to see and be aware of recommended locations and various elements associated with them.
+4. To be able to navigate and interact with map to get better understanding of location.
+5. Be able to navigate to relevant social links.
+    - Footer at bottom with buttons directing to social sites.
+6. Be able to contact site company and be part of newsletter/e-mail contact list.
+    - Contact section has a form which has required fields to make contact.
+    - Notification both on site and direct email to ensure response has been recieved.
+
+### Web Developer
+This user is looking for imagery or influence for another project.
+
+* They want to be able to:
+1. Have easy navigation.
+    - Fixed top Nav bar..
+    - Fixed logo on top left of nav bar for user to navigate to home page.
+2. Find how the website was created.
+    - [README.md](https://github.com/TezBaydu/Milestone-Project-2-Holiday#introduction) file created detailing why and how website was created.
+    - Contact form can also be used for General enquiries.
+3. Be able to make contact with Developer.
+    - Contact form can be used for general enquiries.
+    - [README.md Deployment](https://github.com/TezBaydu/Milestone-Project-2-Holiday#Deploying-via-GitHub-Pages) has description of cloning and forking and therefore contact can be made via GitHub.
+4. Have an opportunity to clone site if wanting to use content.
+    - [README.md Cloning](https://github.com/TezBaydu/Milestone-Project-2-Holiday#Cloning-a-repository) has description of cloning.
+
+[Back to top ⇧](#top)
+
+## Code Testing
+
+### HTML5
+- [HTML code checker](https://validator.w3.org/)
+     
+    - Test date 11/07/2021
+        - HTML5 Home page test
+            * Test 1
+        - ![HTML5 test1](assets/test-files/code-test/htmltest-1.JPG)
+            * Adjustments:
+                * Move script to within Body
+                * Adjust Nody so Footer sticks to bottom
+                * Close "a" tag so no "a" tag is placed within another
+            * Test 2 post adjustments
+        - ![HTML5 test2](assets/test-files/code-test/htmltest-2.JPG)
+
+### CSS3
+- [CSS code checker](https://jigsaw.w3.org/css-validator/)
+    - Test date 11/07/2021
+        - CSS3 code test
+            - ![CSS3 code test](assets/test-files/code-test/css-1.JPG)
+            - ![CSS3 code test](assets/test-files/code-test/css-2.JPG)
+        - Bootstrap errors not sirectly code related
+
+                
+### JavaScript
+- [JS Hint JavaScript validator](https://jshint.com/)
+
+    - Test date 11/07/2021
+        - Javascript code test
+            * Error with => and template literal syntax
+                * created a file eversion.jshintrc and applied eversion: 6 as advised
+                * This wasn't needed. Changed to use JSHint as code validator and reconfigured to capture ES6:
+        ![JSHint configure to ES6](assets/test-files/JSHint-ES6.JPG)
+        * Code issues
+        ![JSHint warnings](assets/test-files/JSHint-warnings.JPG)
+        * Warnings
+            * Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (currentInfoWindow, maps, locationPlace, marker)
+                * google.maps.event.addListener(marker, 'click', function () {
+                * Code relies on two variables 'marker' and 'infoWindow' and they are dependant so they can't be defined outside the loop.
+            * google
+                *Goole maps defined and i reliant for google maps to work
+
+[Back to top ⇧](#top)
+
+
+
+
+
 ### Bugs and Issues
 
 - Google Fonts
@@ -49,8 +175,6 @@
 - Navbar toggler button for mobile versions making navigation confusing
     * As there are only 3 selections, toggler button removed and sizes adjusted. removed Home button for Mobile as this is selectable by pressing Staycation Britain logo.
 
-- Javascript code test
-    * Error with => and template literal syntax
-        * created a file eversion.jshintrc and applied eversion: 6 as advised
-        * This wasn't needed. Changed to use JSHint as code validator and reconfigured to capture ES6:
-        ![JSHint configure to ES6](assets/test-files/JSHint-ES6.JPG)
+
+
+
