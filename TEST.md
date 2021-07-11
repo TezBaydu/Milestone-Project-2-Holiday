@@ -20,10 +20,22 @@
     - [JavaScript](#JavaScript)
 4. [Element testing](#Element-testing)
     - [Navigation bar](#Navigation-bar)
+    - [Scroll Top button](#Scroll-Top-button)
     - [Footer](#Footer)
-    - [Home section](#Home-section)
     - [Locations section](#Locations-section)
+        * [Read More](#Read-More)
+        * [Map Markers](#Map-Markers)
+        * [Interest Cards](#Interest-Cards)
+        * [Contact section](#Contact-section)
     - [Contact section](#Contact-section)
+        * [Email format](#Email-format)
+        * [Submit button](#Submit-button)
+        * [Success pop up](#Success-pop-up)
+        * [Email receipt] (#Email-receipt)
+
+
+ 
+
 5. [Device testing](#Device-testing)
     - [Responsiveness](#Responsiveness)
 6. [Colour blindness testing](#Colour-blindness-testing)
@@ -122,16 +134,47 @@ This user is looking for imagery or influence for another project.
 
 ## Element testing
 ### Navigation bar
-Test responsive hover on menu and links work.
-![Navbar test](assets/test-files/element-test/navbar-test.gif)
+- Test 
+    * Responsive hover on menu.
+    * Links.
+    * Manu disappears on scroll down and appears on scroll up.
+![Navbar test](assets/test-files/element-files/Menu-element-test.gif)
+
+### Scroll Top button
+- Test 
+    * Button pressed scrolls user to top
+    * Button changes format on hover
+![Scroll Top button test](assets/test-files/element-files/scroll-button-test.gif)
+
 ### Footer
-### Home section
+- Test 
+    * Social links change on hover
+    * Social links lead to associated sites
+![Scroll Top button test](assets/test-files/element-files/footer-test.gif)
+
 ### Locations section
 #### Read More
+- Test
+    * Format change on hover.
+    * Card text opens on click and closes on click.
+    * Button changes text on click
+![Read Button test](assets/test-files/element-files/read-button-test.gif)
+
+#### Card text links
+- Test links work on card text
+    * Brighton
+    * Newquay
+    * Cardigan
+    * Skye
+
 #### Map Markers
 #### Interest Cards
-### Contact section
 
+### Contact section
+#### Email format
+#### Submit button
+#### Success pop up
+#### Email receipt
 
 
 ### Bugs and Issues
