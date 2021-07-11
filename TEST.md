@@ -52,3 +52,5 @@
 - Javascript code test
     * Error with => and template literal syntax
         * created a file eversion.jshintrc and applied eversion: 6 as advised
+        * This wasn't needed. Changed to use JSHint as code validator and reconfigured to capture ES6:
+        ![JSHint configure to ES6](assets/test-files/JSHint-ES6.JPG)

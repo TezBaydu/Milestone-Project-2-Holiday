@@ -343,7 +343,7 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [CSS code checker](https://jigsaw.w3.org/css-validator)
 
-- [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
+- [JS Hint JavaScript validator](https://jshint.com/)
 
 - [Browser site testing - BrowserStack](http://browserstack.com)
 

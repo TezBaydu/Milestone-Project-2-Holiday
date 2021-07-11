@@ -120,7 +120,7 @@ function initMap(markerLocations, locationPlace) {
             });
 
             // Close previous info window
-
+            
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
