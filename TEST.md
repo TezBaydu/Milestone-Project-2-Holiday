@@ -163,11 +163,29 @@ This user is looking for imagery or influence for another project.
 #### Card text links
 - Test links work on card text
     * Brighton
+![Read Button test](assets/test-files/element-files/brighton-card-link-test.gif)
     * Newquay
+![Read Button test](assets/test-files/element-files/newquay-card-link-test.gif)
     * Cardigan
+![Read Button test](assets/test-files/element-files/cardigan-card-link-test.gif)
     * Skye
+![Read Button test](assets/test-files/element-files/skye-card-link-test.gif)
 
 #### Map Markers
+- Test 
+    * Markers appear in map when buttons are pressed 
+    * Marker notifications appear when markers a re pressed
+    * Disappear when other markers are pressed
+
+    *Brighton
+![Read Button test](assets/test-files/element-files/brighton-map-marker-test.gif)
+    *Newquay
+![Read Button test](assets/test-files/element-files/newquay-map-marker-test.gif)
+    *Cardigan
+![Read Button test](assets/test-files/element-files/cardigan-map-marker-test.gif)
+    *Skye
+![Read Button test](assets/test-files/element-files/skye-map-marker-test.gif)
+
 #### Interest Cards
 
 ### Contact section
