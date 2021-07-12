@@ -120,7 +120,7 @@ Identifying target audience.
 1. Personality
     * Fed up of being stuck at home.
     * People who like travelling.
-    * Looking for something different to stay.
+    * Looking for somewhere different to stay.
 2. Lifestyle
     * Earnings could vary but enough to have a break away.
     * Families.
@@ -147,7 +147,7 @@ Below are areas considered for levels of importance and viability
 1. High
     * Online presence.
     * Imagery.
-    *Interactivity.
+    * Interactivity.
     * Contact portal.
     * Map.
     * Links to places of interest.
@@ -176,7 +176,7 @@ Below are areas considered for levels of importance and viability
 #### Influence
 1. Lockdown scenarios for over a year !
 2. Image of nice places to visit:
-    *![People in the sea image](assets/images/beach-people.jpg)
+    * ![People in the sea image](assets/images/beach-people.jpg)
 
 #### Imagery
 1. Colours
@@ -186,6 +186,8 @@ Below are areas considered for levels of importance and viability
         * Beaches
         * Travelling
         * Fun
+        * Places to stay
+        * Places to eat
 
 #### Page sections
 1. Home
@@ -228,17 +230,17 @@ This project has three main sections all in one page but is locatable by clickin
 
 ### Consistency
 
-- Design with menu placing in the same position at top.
+- Design with menu placed in the same position at top.
     * A logo which leads the user back to 'Home' when clicked.
     * To collapse on scrolldown and appear on scroll up to allow better user readability.
-    * Menu links to highloght at appropriate sections to allow user to know which section they are currently at.
+    * Menu links to highlight at appropriate sections to allow user to know which section they are currently at.
 
 - Footer with links to social media.
 
 - Consistent font:
     * Source Serif Pro
     * Dancing Script
-    * to use additional in case montserrat isn't available for users:
+    * to use additional in case Source Serif Pro or Dancing Script isn't available for users:
         * Arial & sans serif
 
 - Colours (although may vary to suit):
@@ -270,11 +272,11 @@ This project has three main sections all in one page but is locatable by clickin
 #### Card Collapse
 1. Location image.
 2. Location description.
-3. Read more button to open card and Read less to collapse card.
+3. Read more button to open card and Read less button to collapse card.
 
 #### Card Expanded
 1. Location image.
-2. Full text explanded.
+2. Full text expanded.
 3. Links to point of interest and relevance in text.
 
 ### Card Map
@@ -323,7 +325,7 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [Google fonts](https://fonts.google.com)
 
-- [Figma](https://www.figma.com)
+- [Figma](https://www.figma.com/file/fyBG54zRwgw4zW7ImEShVi/Project-2?node-id=0%3A1)
     * [project wireframe]
 
 - [Font Awesome](https://fontawesome.com/v4.7.0)
@@ -418,9 +420,9 @@ Once you are able to view the repository in Gitpod this is done by:
 
 ### Deploying via GitHub Pages
 
-1. Log into GitHub and look for [https://github.com/TO BE UPDATED] or create an account.
-2. Click on settings and ensure repository name is selected to TO BE UPDATED.
-3. Scroll down to GitHub Pages section and ensure Branch is 'Master' and folder is 'root'.
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-2-Holiday] or create an account.
+2. Click on settings and ensure repository name is selected to Milestone-Project-2-Holiday.
+3. Select 'Pages' in menu section and ensure Branch is 'Master' and folder is 'root'.
 4. Click save and wait for site to be published.
 5. Click link in GitHub Pages section to view published site.
 
