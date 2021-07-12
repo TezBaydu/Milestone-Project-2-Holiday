@@ -345,6 +345,8 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [JS Hint JavaScript validator](https://jshint.com/)
 
+- [Gif Compessor](https://www.freeconvert.com/gif-compressor)
+
 - [Browser site testing - BrowserStack](http://browserstack.com)
 
 - [RGBlind chrome extension]

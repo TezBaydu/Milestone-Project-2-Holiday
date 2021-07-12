@@ -30,7 +30,6 @@
     - [Contact section](#Contact-section)
     - [Email format](#Email-format)
 5. [Device testing](#Device-testing)
-    - [Responsiveness](#Responsiveness)
 6. [Colour blindness testing](#Colour-blindness-testing)
     - [Protanopia](#Protanopia)
     - [Deuteranopia](#Deuteranopia)
@@ -219,8 +218,22 @@ This user is looking for imagery or influence for another project.
     * When email is submitted an email is sent to the developer with message from user
     * Auto reply to user stating an email has been received and they will be contacted
     * Email to have a link to the site
+    - ![Read Button test](assets/test-files/element-files/email-send-receipt-test.gif)
 
+### Device testing
+- Test
+    * Device styles and responsiveness for
+    - Mobile
 
+    - Tablet
+
+### Colour blindness testing
+#### Protanopia
+#### Deuteranopia
+
+### Browser testing
+
+### User testing
 
 
 ### Bugs and Issues
@@ -274,6 +287,9 @@ This user is looking for imagery or influence for another project.
 - Navbar toggler button for mobile versions making navigation confusing
     * As there are only 3 selections, toggler button removed and sizes adjusted. removed Home button for Mobile as this is selectable by pressing Staycation Britain logo.
 
-
+- remote: warning: File assets/test-files/element-files/email-send-receipt-test.gif is 64.05 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+    * Email test gif too big
+        * Gif compressed using online compressor https://www.freeconvert.com/gif-compressor
+        * Converted from 64.05 MB to 24.30 MB
 
 
