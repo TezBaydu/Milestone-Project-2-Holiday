@@ -28,14 +28,7 @@
         * [Interest Cards](#Interest-Cards)
         * [Contact section](#Contact-section)
     - [Contact section](#Contact-section)
-        * [Email format](#Email-format)
-        * [Submit button](#Submit-button)
-        * [Success pop up](#Success-pop-up)
-        * [Email receipt] (#Email-receipt)
-
-
- 
-
+    - [Email format](#Email-format)
 5. [Device testing](#Device-testing)
     - [Responsiveness](#Responsiveness)
 6. [Colour blindness testing](#Colour-blindness-testing)
@@ -211,10 +204,23 @@ This user is looking for imagery or influence for another project.
     - ![Read Button test](assets/test-files/element-files/skye-card-interest-test.gif)
 
 ### Contact section
+- Test
+    * Contact fields are editable
+    * All fields are required
+    * Email field requires email format
+    * Submit button works
+    * Pop up appears to show success
+    * Contact fields text is removed
+    * Position returns to contact after submission
+    - ![Read Button test](assets/test-files/element-files/contact-field-test.gif)
+
 #### Email format
-#### Submit button
-#### Success pop up
-#### Email receipt
+- Test
+    * When email is submitted an email is sent to the developer with message from user
+    * Auto reply to user stating an email has been received and they will be contacted
+    * Email to have a link to the site
+
+
 
 
 ### Bugs and Issues
