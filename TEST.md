@@ -240,13 +240,16 @@ This user is looking for imagery or influence for another project.
         - On Test found the scroll to top button was no longer in a fixed position
         - Have investigated online, on Slack and through tutor support and there is no documentation to understand why this occurs.
         - Have also tested on LMS site on intercom container which is also floating and this loses it's fixed position too.
-        _ Potentially one to investigate however is worked around as the menu appears on scroll up and the scroll top button is fixed at the bottom
+        - Potentially one to investigate however is worked around as the menu appears on scroll up and the scroll top button is fixed at the bottom
 
 #### Protanopia
 - ![Read Button test](assets/test-files/colour-blindness-files/protanopia-test.gif)
 
 #### Deuteranopia
 - ![Read Button test](assets/test-files/colour-blindness-files/deuteranopia-test.gif)
+
+#### LMS Site intercom container colour blindness test
+- ![Read Button test](assets/test-files/colour-blindness-files/lms-colour-test.gif)
 
 
 ### Browser testing

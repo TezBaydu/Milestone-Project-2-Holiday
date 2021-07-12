@@ -412,9 +412,8 @@ Once you are able to view the repository in Gitpod this is done by:
 6. Log into GitHub
     - Locate repository
     - You should be able to see the latest and history of commits in code section at top right of table of files list.
-    ![git-commits](assets/readme-files/ TO BE UPDATED)
-
-
+    * ![git-commits](assets/test-files/code-files/commits-location.JPG)
+    
 
 ### Deploying via GitHub Pages
 
@@ -429,7 +428,7 @@ Once you are able to view the repository in Gitpod this is done by:
 Forking a repository in GitHub is used to make a copy of a repository which you do not have rights access to. Once you have forked a repository you will be able to make changes without affecting the original. It can also be used to suggest changes of an original project and/or propose a project as starting point.
 
 Steps on Forking a repository:
-1. Log into GitHub and look for [https://github.com/TO BE UPDATED] or create an account.
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-2-Holiday] or create an account.
 2. At the top right hand corner of the page select "Fork".
 3. You should now have a copy of the original repository to work with on your account without affecting the original.
 
@@ -439,7 +438,7 @@ Cloning a repository in GitHub allows you to make a copy of your own repository 
 If you wish to make changes which do not affect the original then this should be forked.
 
 Steps to Clone a repository
-1. Log into GitHub and look for [https://github.com/TO BE UPDATED] or create an account.
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-2-Holiday] or create an account.
 2. Ensure "Code" has been selected in menu.
 3. Select code on top right of table.
 4. Select either HTTPS, SSH or CLI.
