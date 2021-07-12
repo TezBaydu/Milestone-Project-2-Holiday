@@ -137,7 +137,7 @@ This user is looking for imagery or influence for another project.
 - Test 
     * Responsive hover on menu.
     * Links.
-    * Manu disappears on scroll down and appears on scroll up.
+    * Menu disappears on scroll down and appears on scroll up.
 ![Navbar test](assets/test-files/element-files/Menu-element-test.gif)
 
 ### Scroll Top button
@@ -177,16 +177,29 @@ This user is looking for imagery or influence for another project.
     * Marker notifications appear when markers a re pressed
     * Disappear when other markers are pressed
 
-    *Brighton
+    * Brighton
 ![Read Button test](assets/test-files/element-files/brighton-map-marker-test.gif)
-    *Newquay
+    * Newquay
 ![Read Button test](assets/test-files/element-files/newquay-map-marker-test.gif)
-    *Cardigan
+    * Cardigan
 ![Read Button test](assets/test-files/element-files/cardigan-map-marker-test.gif)
-    *Skye
+    * Skye
 ![Read Button test](assets/test-files/element-files/skye-map-marker-test.gif)
 
 #### Interest Cards
+- Test
+    * Cards appear on interest buttons press
+    * Alternate cards appear on other buttons being pressed
+    * More info buttons work and push user to site and a new window
+
+    * Brighton
+![Read Button test](assets/test-files/element-files/brighton-card-interest-test.gif)
+    * Newquay
+![Read Button test](assets/test-files/element-files/newquay-card-interest-test.gif)
+    * Cardigan
+![Read Button test](assets/test-files/element-files/cardigan-card-interest-test.gif)
+    * Skye
+![Read Button test](assets/test-files/element-files/skye-card-interest-test.gif)
 
 ### Contact section
 #### Email format
