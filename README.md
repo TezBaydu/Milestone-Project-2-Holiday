@@ -42,7 +42,7 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
     - [Contact](#Contact-section)
 3. [Technologies Used](#Technologies-Used)
 4. [Bugs and Issues](#Bugs-and-Issues)
-5. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
+5. [Testing](#Testing) / [Test detail file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
     - [Commits](#Commits)
     - [Code testing](#Code-testing)
     - [Element testing](#Element-testing)
@@ -358,7 +358,7 @@ This project has three main sections all in one page but is locatable by clickin
 [Back to top ⇧](#introduction)
 
 ## Testing 
--   ### View [Test.md file](
+-   ### View [TEST.md file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
 
 ### Commits
 
@@ -374,7 +374,6 @@ This project has three main sections all in one page but is locatable by clickin
    
 ### Device testing
 
-- [Responsive design checker](https://responsivedesignchecker.com)
 - [Am I responsive](http://ami.responsivedesign.is)
 
 ### Colour blindness testing
