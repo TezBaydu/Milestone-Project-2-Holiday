@@ -273,6 +273,8 @@ This user is looking for imagery or influence for another project.
 - Microsoft Edge browser testing
     * ![Microsoft Edge browser test](assets/test-files/browser-files/edge-browser-test.gif)
 
+- Firefox browser testing
+    * ![Firefox browser test](assets/test-files/browser-files/firefox-browser-test.gif)
 
 [Back to top ⇧](#top)
 

@@ -383,6 +383,7 @@ This project has three main sections all in one page but is locatable by clickin
 ### Browser testing
 
 - Chrome
+    - main area of testing
 - Firefox
 - Microsoft Edge
 - Safari
