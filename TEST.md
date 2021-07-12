@@ -142,7 +142,9 @@ This user is looking for imagery or influence for another project.
 - Test 
     * Social links change on hover
     * Social links lead to associated sites
-![Scroll Top button test](assets/test-files/element-files/footer-test.gif)
+![Footer social links test](assets/test-files/element-files/footer-test.gif)
+
+[Back to top ⇧](#top)
 
 ### Locations section
 #### Read More
@@ -150,21 +152,25 @@ This user is looking for imagery or influence for another project.
     * Format change on hover.
     * Card text opens on click and closes on click.
     * Button changes text on click
-![Read Button test](assets/test-files/element-files/read-button-test.gif)
+![Read More Button test](assets/test-files/element-files/read-button-test.gif)
+
+[Back to top ⇧](#top)
 
 #### Card text links
 - Test links work on card text
     * Brighton
-    - ![Read Button test](assets/test-files/element-files/brighton-card-link-test.gif)
+    - ![Brighton text links test](assets/test-files/element-files/brighton-card-link-test.gif)
 
     * Newquay
-    - ![Read Button test](assets/test-files/element-files/newquay-card-link-test.gif)
+    - ![Newquay text links test](assets/test-files/element-files/newquay-card-link-test.gif)
 
     * Cardigan
-    - ![Read Button test](assets/test-files/element-files/cardigan-card-link-test.gif)
+    - ![Cardigan text links test](assets/test-files/element-files/cardigan-card-link-test.gif)
 
     * Skye
-    - ![Read Button test](assets/test-files/element-files/skye-card-link-test.gif)
+    - ![Skye text links test](assets/test-files/element-files/skye-card-link-test.gif)
+
+[Back to top ⇧](#top)
 
 #### Map Markers
 - Test 
@@ -173,16 +179,18 @@ This user is looking for imagery or influence for another project.
     * Disappear when other markers are pressed
 
     * Brighton
-    - ![Read Button test](assets/test-files/element-files/brighton-map-marker-test.gif)
+    - ![Brighton Map Marker test](assets/test-files/element-files/brighton-map-marker-test.gif)
     
     * Newquay
-    - ![Read Button test](assets/test-files/element-files/newquay-map-marker-test.gif)
+    - ![Newquay Map Marker test](assets/test-files/element-files/newquay-map-marker-test.gif)
 
     * Cardigan
-    - ![Read Button test](assets/test-files/element-files/cardigan-map-marker-test.gif)
+    - ![Cardigan Map Marker test](assets/test-files/element-files/cardigan-map-marker-test.gif)
 
     * Skye
-    - ![Read Button test](assets/test-files/element-files/skye-map-marker-test.gif)
+    - ![Skye Map Marker test](assets/test-files/element-files/skye-map-marker-test.gif)
+
+[Back to top ⇧](#top)
 
 #### Interest Cards
 - Test
@@ -191,16 +199,18 @@ This user is looking for imagery or influence for another project.
     * More info buttons work and push user to site and a new window
 
     * Brighton
-    - ![Read Button test](assets/test-files/element-files/brighton-card-interest-test.gif)
+    - ![Brighton interest card test](assets/test-files/element-files/brighton-card-interest-test.gif)
 
     * Newquay
-    - ![Read Button test](assets/test-files/element-files/newquay-card-interest-test.gif)
+    - ![Newquay interest card test](assets/test-files/element-files/newquay-card-interest-test.gif)
 
     * Cardigan
-    - ![Read Button test](assets/test-files/element-files/cardigan-card-interest-test.gif)
+    - ![Cardigan interest card test](assets/test-files/element-files/cardigan-card-interest-test.gif)
 
     * Skye
-    - ![Read Button test](assets/test-files/element-files/skye-card-interest-test.gif)
+    - ![Skye interest card test](assets/test-files/element-files/skye-card-interest-test.gif)
+
+[Back to top ⇧](#top)
 
 ### Contact section
 - Test
@@ -211,26 +221,32 @@ This user is looking for imagery or influence for another project.
     * Pop up appears to show success
     * Contact fields text is removed
     * Position returns to contact after submission
-    - ![Read Button test](assets/test-files/element-files/contact-field-test.gif)
+    - ![Contact section test](assets/test-files/element-files/contact-field-test.gif)
+
+[Back to top ⇧](#top)
 
 #### Email format
 - Test
     * When email is submitted an email is sent to the developer with message from user
     * Auto reply to user stating an email has been received and they will be contacted
     * Email to have a link to the site
-    - ![Read Button test](assets/test-files/element-files/email-send-receipt-test.gif)
+    - ![Email format test](assets/test-files/element-files/email-send-receipt-test.gif)
+
+[Back to top ⇧](#top)
 
 ### Device testing
 - Test
     * Device styles and responsiveness for
     - Mobile
-    - ![Read Button test](assets/test-files/element-files/mobile-device-test.gif)
+    - ![Mobile device test](assets/test-files/element-files/mobile-device-test.gif)
 
     - Tablet
-    - ![Read Button test](assets/test-files/element-files/tablet-device-test.gif)
+    - ![Tablet device test](assets/test-files/element-files/tablet-device-test.gif)
 
     - Am I Responsive design checker
-    - ![Read Button test](assets/test-files/element-files/am-i-responsive-test.gif)
+    - ![Am I Responsive design test](assets/test-files/element-files/am-i-responsive-test.gif)
+
+[Back to top ⇧](#top)
 
 ### Colour blindness testing
 - Test
@@ -243,21 +259,26 @@ This user is looking for imagery or influence for another project.
         - Potentially one to investigate however is worked around as the menu appears on scroll up and the scroll top button is fixed at the bottom
 
 #### Protanopia
-- ![Read Button test](assets/test-files/colour-blindness-files/protanopia-test.gif)
+- ![Protanopia test](assets/test-files/colour-blindness-files/protanopia-test.gif)
 
 #### Deuteranopia
-- ![Read Button test](assets/test-files/colour-blindness-files/deuteranopia-test.gif)
+- ![Deuteranopia test](assets/test-files/colour-blindness-files/deuteranopia-test.gif)
 
 #### LMS Site intercom container colour blindness test
-- ![Read Button test](assets/test-files/colour-blindness-files/lms-colour-test.gif)
+- ![LMS Site colour blindness check](assets/test-files/colour-blindness-files/lms-colour-test.gif)
 
+[Back to top ⇧](#top)
 
 ### Browser testing
+- Microsoft Edge browser testing
+    * ![Microsoft Edge browser test](assets/test-files/browser-files/edge-browser-test.gif)
+
+
+[Back to top ⇧](#top)
 
 ### User testing
 
-
-### Bugs and Issues
+#### Bugs and Issues
 
 - Google Fonts
     * @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -313,4 +334,4 @@ This user is looking for imagery or influence for another project.
         * Gif compressed using online compressor https://www.freeconvert.com/gif-compressor
         * Converted from 64.05 MB to 24.30 MB
 
-
+[Back to top ⇧](#top)
