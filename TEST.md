@@ -227,6 +227,10 @@ This user is looking for imagery or influence for another project.
     - ![Read Button test](assets/test-files/element-files/mobile-device-test.gif)
 
     - Tablet
+    - ![Read Button test](assets/test-files/element-files/tablet-device-test.gif)
+
+    - Am I Responsive design checker
+    - ![Read Button test](assets/test-files/element-files/am-i-responsive-test.gif)
 
 ### Colour blindness testing
 #### Protanopia

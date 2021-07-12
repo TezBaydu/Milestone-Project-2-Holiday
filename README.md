@@ -335,8 +335,6 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [postcode to lat-lng](https://www.freemaptools.com/convert-uk-postcode-to-lat-lng.htm)
 
-- [Responsive design checker](https://responsivedesignchecker.com)
-
 - [Am I responsive](http://ami.responsivedesign.is)
 
 - [HTML code checker](https://validator.w3.org)
