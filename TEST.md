@@ -26,7 +26,6 @@
         * [Read More](#Read-More)
         * [Map Markers](#Map-Markers)
         * [Interest Cards](#Interest-Cards)
-        * [Contact section](#Contact-section)
     - [Contact section](#Contact-section)
     - [Email format](#Email-format)
 5. [Device testing](#Device-testing)
@@ -35,7 +34,7 @@
     - [Deuteranopia](#Deuteranopia)
 7. [Browser testing](#Browser-testing)
 8. [User testing](#User-testing)
-    - [Bugs and Issues](Bugs-and-Issues)
+    - [Bugs and Issues](#Bugs-and-Issues)
 
 ## Commits
 - Over 110 commits
@@ -350,3 +349,11 @@ This user is looking for imagery or influence for another project.
         * Converted from 64.05 MB to 24.30 MB
 
 [Back to top ⇧](#top)
+
+<h2 align="center">
+    <a href="https://tezbaydu.github.io/Milestone-Project-2-Holiday" target="_blank">Staycation Britain Website</a>
+</h2>
+
+<h3 align="center">
+    <a href="https://github.com/TezBaydu/Milestone-Project-2-Holiday#README" target="_blank">Back to README file</a>
+</h3>
