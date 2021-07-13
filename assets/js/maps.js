@@ -1,3 +1,7 @@
+// Map Javascript handling
+
+//Initial Map
+
 let mapBrighton;
 let mapNewquay;
 let mapCardigan;
