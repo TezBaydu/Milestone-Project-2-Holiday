@@ -21,7 +21,7 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
     - [Aims](#Aims)
     - [Demographic](#Demographic-both-current-and-potential)
     - [User Stories](#User-stories)
-        - [Traveller](#Traveller)
+        - [Travellers](#Travellers)
         - [Web developer](#Web-Developer)
     - [Development](#Development-Plan)
         - [Strategy](#Strategy)
@@ -38,11 +38,10 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
 2. [Features](#Features)
     - [Consistency](#Consistency)
     - [Home](#Home-section)
-    - [Locations](#Location-sesction)
+    - [Locations](#Location-section)
     - [Contact](#Contact-section)
 3. [Technologies Used](#Technologies-Used)
-4. [Bugs and Issues](#Bugs-and-Issues)
-5. [Testing](#Testing) / [Test detail file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
+4. [Testing](#Testing) / [Test detail file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
     - [Commits](#Commits)
     - [Code testing](#Code-testing)
     - [Element testing](#Element-testing)
@@ -50,12 +49,12 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
     - [Colour blindness Testing](#Colour-blindness-testing)
     - [Browser testing](#Browser-testing)
     - [User testing](#User-testing)
-6. [Deployment](#Deployment)
+5. [Deployment](#Deployment)
     - [Gitpod commits](#Gitpod-to-GitHub-commits)
     - [GitHub Pages Deployment](#Deploying-via-GitHub-Pages)
     - [Forking](#Forking-repository)
     - [Cloning](#Cloning-a-repository)
-7. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
+6. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
 
 ***
 ![Responsiveness](assets/readme-files/responsive-image.JPG)
@@ -79,7 +78,7 @@ Main requirements are to show understanding of JavaScript and JQuery by developi
 
 ### User stories
 
-#### British Travellers
+#### Travellers
 The user is considering a break away from home and wanting to have inspiration on places to visit
 *   This user wants to:
 1. Be able to navigate through the website easily.
@@ -335,6 +334,8 @@ This project has three main sections all in one page but is locatable by clickin
 
 - [cdnjs](https://cdnjs.com)
 
+- [Codepen](https://codepen.io/)
+
 - [postcode to lat-lng](https://www.freemaptools.com/convert-uk-postcode-to-lat-lng.htm)
 
 - [Am I responsive](http://ami.responsivedesign.is)
@@ -355,15 +356,12 @@ This project has three main sections all in one page but is locatable by clickin
 
 [Back to top ⇧](#introduction)
 
-## Bugs and Issues
-
-[Back to top ⇧](#introduction)
-
 ## Testing 
 -   ### View [TEST.md file](https://github.com/TezBaydu/Milestone-Project-2-Holiday/blob/master/TEST.md)
 
 ### Commits
 
+- Over 130 commits
 
 ### Code Testing
 - HTML 
@@ -460,22 +458,25 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 ## Credits and Acknowledgements
 
+- [Code Institute](https://codeinstitute.net/)
+    * Tutor Support have been amazing
+    * Seun Owoni Koko for her enthusiasm, guidance and support
+    * Slack channel
+
+- [Codepen](https://codepen.io/)
+    * Excellent source to view and test code
+
+- [Stack overflow](https://stackoverflow.com/)
+    * For the general queries that have happpened and the various solutions as guidance
+
+- Website Designers
+    * For their help in testing Mac version and advice on design
+
+- Friends and Family
+    * For their patience, advice and support
 
 [Back to top ⇧](#introduction)
 
 
-To update:
-Site isn't 100% width especially in mobile version - Pic tiles adjustment required - done
-Figma updates to Tablet and mobile versions - Done
-Adjust designs to version 1 (one place per view) to allow for more map space and interactivity - done
-Intro 2 - too much white space- potential border, image or reduce margin top and bottom - done - margins reduced by updating flex height on pic-tiles
-Back to top button - done
-Read more - to disappear when pressed and read less appears at bottom and vice versa - Read more Read less done, considering the point to place Read less at bottom - done
-Contact message to be non-resizeable - Done Max-height
-Map to have buttons for places of interest and markers showing where these are. - Buttons applied / Markers done / info in markers to update - Done
-Contact auto response by email also required email JavaScript - Done with alert pop up too
-Below to show recommended places to see depending on buttons pressed. - Cards produced and styled / content and script Done
-Text links - done
-Investigate menu collapse so doesn't affect wider versions - Done Opacity to 0 on CSS originally but then figured out menu collapse on scorrl down and appear on scroll up.
-Link to website on email once published - Done
+
 
